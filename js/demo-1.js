@@ -213,8 +213,36 @@ var the_id = $(this).attr("href");
     }, 'slow');
 
     return false;});
-    
 
+//overlay of speakers
+
+    $('.effect-zoe').click(function()
+    {
+        var over = $(".overlay");
+        over.css("height","100%");
+        over.css("overflow-x","hidden");
+        over.css("opacity","1");
+        
+        $('nav').css("display","none");
+        $('body').delay(2000).css("overflow-y","hidden");
+        
+        var imgsrc = $(this).children('img').attr("src");
+        $(".overlay img").attr("src",imgsrc);
+        
+        var speakerName = $(this).children('figcaption');
+        speakerName = speakerName.children('h2').html();
+        $(".overlay h1").html(speakerName);
+
+        var speakerInfo = $(this).children('.speaker-info').html();
+        $(".overlay p").html(speakerInfo);
+    });
+
+    $('.overlay .closebtn').click(function(){
+        $('.overlay').css("opacity","0");
+        $('.overlay').css("height","0%");
+        $('nav').css("display","block");
+        $('body').css("overflow-y","scroll");
+    });
 
     //parallax javascript 
 
@@ -230,9 +258,9 @@ $(window).scroll(function(){
 
     $('.front-x').css({'transform':'translate(0px, -'+ (wScroll)/7+'%)'});
    
-    if (wScroll>= $('#about').offset().top/1.1)
-    {  $('.navbar-default').css("box-shadow","5px -69px 190px 220px rgba(0,0,0,1)"); }
+    // if (wScroll>= $('#about').offset().top/1.1)
+    // {  $('.navbar-default').css("box-shadow","5px -69px 190px 220px rgba(0,0,0,1)"); }
 
-    else { $('.navbar-default').css("box-shadow","5px -149px 90px 200px rgba(0,0,0,1)"); }
+    // else { $('.navbar-default').css("box-shadow","5px -149px 90px 200px rgba(0,0,0,1)"); }
 
 });

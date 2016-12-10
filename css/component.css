@@ -212,7 +212,7 @@ section{
  	-webkit-transition-duration: 1s;
  }
  .navbar-bg-add{
- 	background-color: white;
+ 	background-color: black;
  	
  }
 
@@ -524,6 +524,25 @@ figure.effect-zoe:hover img {
   margin-bottom: 10%;
 }
 
+#speakers{
+  min-height: 50vh;
+}
+
+.announcements h1{
+  font-family: oswald;
+  font-size: 45px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.announcements button{
+  background-color: #e62b1e;
+  color: white;
+  border-color: #e62b1e;
+}
+.announcements button:hover{
+  background-color: white;
+  color:#e62b1e;
+}
 .front-x{
     background: url(../img/x.png) no-repeat;
     width: 960px;
@@ -545,7 +564,7 @@ figure.effect-zoe:hover img {
   background: url(../img/man-back.jpg) no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   width:100%;
   -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
@@ -556,7 +575,7 @@ figure.effect-zoe:hover img {
   background: url(../img/front-man.png) no-repeat;
   background-position:top right;
   background-size: 120vh;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   /*background-color: rgba(2,2,2,0.5);*/
 }
@@ -573,7 +592,7 @@ figure.effect-zoe:hover img {
 }
 .cloud-back{
   background: url(../img/cloud-back.jpg) no-repeat;
-  background-position: center;
+  background-position: left;
   /*background-attachment: fixed;*/
   background-size: cover;
   position: absolute;
@@ -590,7 +609,7 @@ figure.effect-zoe:hover img {
   background-size: 50%;
   width: 100%;
   z-index: -1;
-  height: 100vh;
+  height: 100%;
   /*margin-top: 250px;*/
   /*background-color: rgba(2,2,2,0.5);*/
 }
@@ -606,4 +625,47 @@ figure.effect-zoe:hover img {
   margin-top:20%;
   font-size: 100px;
   font-weight: 900;
+}
+
+.speaker-info{
+  display: none;
+}
+
+.overlay{
+    height: 0%;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    opacity: 0;
+    transition: all 0.5s linear;
+    overflow: scroll;
+}
+.overlay .closebtn{
+  position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #e62b1e;
+    cursor: pointer;
+}
+.overlay .closebtn:hover{
+  text-decoration: none;
+  color: #000;
+  transition: all 0.5s;
+}
+.overlay-content{
+  margin:10%;
+}
+.overlay-content h1{
+  font-size: 45px;
+  color: #e62b1e;
+}
+.overlay-content p{
+  font-size: 18px;
+  color:#444;
+  letter-spacing: 2px;
 }
