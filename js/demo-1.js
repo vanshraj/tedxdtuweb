@@ -1,3 +1,4 @@
+var windowWidth = $(window).width();
 (function() {
 
     var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
@@ -22,15 +23,24 @@
 
         // create points
         points = [];
-        for(var x = 0; x < width; x = x + width/20) {
-            for(var y = 0; y < height; y = y + height/20) {
-                var px = x + Math.random()*width/20;
-                var py = y + Math.random()*height/20;
+        var ydiv;
+        if(windowWidth > 800)
+            ydiv=20;
+        else
+            ydiv=13;
+        for(var x = 0; x < width; x = x + width/ydiv) {
+            for(var y = 0; y < height; y = y + height/ydiv) {
+                var px = x + Math.random()*width/ydiv;
+                var py = y + Math.random()*height/ydiv;
                 var p = {x: px, originX: px, y: py, originY: py };
                 points.push(p);
             }
         }
-
+        var xclose;
+        if(windowWidth > 800)
+            xclose = 5;
+        else
+            xclose = 1;
         // for each point find the 5 closest points
         for(var i = 0; i < points.length; i++) {
             var closest = [];
@@ -39,7 +49,7 @@
                 var p2 = points[j]
                 if(!(p1 == p2)) {
                     var placed = false;
-                    for(var k = 0; k < 5; k++) {
+                    for(var k = 0; k < xclose; k++) {
                         if(!placed) {
                             if(closest[k] == undefined) {
                                 closest[k] = p2;
@@ -48,7 +58,7 @@
                         }
                     }
 
-                    for(var k = 0; k < 5; k++) {
+                    for(var k = 0; k < xclose; k++) {
                         if(!placed) {
                             if(getDistance(p1, p2) < getDistance(p1, closest[k])) {
                                 closest[k] = p2;
@@ -214,17 +224,25 @@ var the_id = $(this).attr("href");
 
     return false;});
 
+
+
 //overlay of speakers
 
     $('.effect-zoe').click(function()
-    {
+    {   
         var over = $(".overlay");
-        over.css("height","100%");
+        if( windowWidth > 800 )
+            over.css("height","80%");
+        else 
+            over.css("height","100%");
         over.css("overflow-x","hidden");
         over.css("opacity","1");
         
         $('nav').css("display","none");
         $('body').delay(2000).css("overflow-y","hidden");
+        $('.overlay-back').css("height","100%");
+        $('.overlay-back').css("opacity","1");
+
         
         var imgsrc = $(this).children('img').attr("src");
         $(".overlay img").attr("src",imgsrc);
@@ -240,6 +258,9 @@ var the_id = $(this).attr("href");
     $('.overlay .closebtn').click(function(){
         $('.overlay').css("opacity","0");
         $('.overlay').css("height","0%");
+        $('.overlay-back').css("height","0%");
+        $('.overlay-back').css("opacity","0");
+
         $('nav').css("display","block");
         $('body').css("overflow-y","scroll");
     });
@@ -249,12 +270,17 @@ var the_id = $(this).attr("href");
 $(window).scroll(function(){
 
     var wScroll = $(this).scrollTop();
+    var wScrollB = wScroll + $(window).height();
 
-    $('.man-front').css({'transform':'translate( ' + (wScroll- $('.man-front').offset().top/1.2)/40 +'% , 0px'});
+    if( windowWidth > 800)
+    {
+        $('.man-front').css({'transform':'translate( ' + (wScrollB- $('.man-front').offset().top)/40 +'% , 0px'});
     
-    $('.cloud-back').css({'transform':'translateX( -'+ (wScroll- $('.clock-tower').offset().top/1.2)/60+'%'});
+        $('.cloud-back').css({'transform':'translateX( -'+ (wScrollB- $('.cloud-back').offset().top)/60+'%'});
 
-    $(".inspire").css({'transform':'translate( 0px, ' + (wScroll- $('.inspire').offset().top/1.2 )/6+'%)'});
+        $(".inspire").css({'transform':'translate( 0px, ' + (wScrollB- $('.inspire').offset().top)/6+'%)'});
+    }
+    
 
     $('.front-x').css({'transform':'translate(0px, -'+ (wScroll)/7+'%)'});
    

@@ -11,6 +11,46 @@ body {
   overflow-x:hidden; 
   font-family: 'Raleway', Calibri, Arial, sans-serif;
 }
+/*
+ *  STYLE 4
+ */
+
+body ::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #444;
+  opacity:0.5;
+}
+
+body::-webkit-scrollbar
+{
+  width: 4px;
+  background-color: #444;
+  opacity:0.5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+  background-color: #e62b1e;
+  opacity: 0.5;
+}
+.overlay ::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #000;
+}
+
+.overlay::-webkit-scrollbar
+{
+  width: 4px;
+  background-color: #000;
+}
+
+.overlay::-webkit-scrollbar-thumb
+{
+  background-color: #e62b1e;
+  border: 1px solid #e62b1e;
+}
 
 a, button {
   outline: none;
@@ -630,14 +670,23 @@ figure.effect-zoe:hover img {
 .speaker-info{
   display: none;
 }
-
+.overlay-back{
+  background-color: rgba(0,0,0,0.6);
+  height: 0%;
+  width: 100%;
+  z-index: 99;
+  position: fixed;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.5s linear;
+}
 .overlay{
     height: 0%;
-    width: 100%;
+    width: 80%;
     position: fixed; /* Stay in place */
     z-index: 100; /* Sit on top */
-    left: 0;
-    top: 0;
+    left: 10%;
+    top: 10%;
     background-color: #fff;
     overflow-x: hidden; /* Disable horizontal scroll */
     opacity: 0;
@@ -645,7 +694,8 @@ figure.effect-zoe:hover img {
     overflow: scroll;
 }
 .overlay .closebtn{
-  position: absolute;
+  /*position: absolute;*/
+    float: right;
     top: 20px;
     right: 45px;
     font-size: 60px;
@@ -668,4 +718,45 @@ figure.effect-zoe:hover img {
   font-size: 18px;
   color:#444;
   letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 800px){
+  .overlay{
+    top:0;
+    left: 0;
+    width: 100%;
+  }
+  
+}
+@media only screen and (max-width: 420px){
+  .front-x{
+    display: none;
+  }
+  .back-man{
+    height: 40%;
+  }
+  .man-front{
+    height: 41%;
+    background-size: 44vh;
+  }
+  section{
+    min-height: 40vh;
+  }
+  .inspire{
+    font-size: 35px;
+    margin-left: 10%;
+  }
+  .cloud-back{
+    width: 100%;
+    height: 40%;
+  }
+  .adventure{
+    font-size: 35px;
+    margin-top: 30%;
+  }
+  .clock-tower{
+    height: 40%;
+    background-size: 70%;
+  }
+
 }
