@@ -51,6 +51,23 @@ body::-webkit-scrollbar-thumb
   background-color: #e62b1e;
   border: 1px solid #e62b1e;
 }
+.overlay-login::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #000;
+}
+
+.overlay-login::-webkit-scrollbar
+{
+  width: 4px;
+  background-color: #000;
+}
+
+.overlay-login::-webkit-scrollbar-thumb
+{
+  background-color: #e62b1e;
+  border: 1px solid #e62b1e;
+}
 
 a, button {
   outline: none;
@@ -133,6 +150,7 @@ span#small{
 		font-size: 4em;
 	}
 }
+
 
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn { from { opacity:0; -webkit-transform: translate3d(-50%,-100%,0);  } to { opacity:1; -webkit-transform: translate3d(-50%,-50%,0); } }
@@ -228,6 +246,7 @@ section{
 .navbar{
 	min-height: 0px;
 }
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{
     color: #fff;
     border-color: rgba(0, 0, 0, 0);
@@ -574,14 +593,16 @@ figure.effect-zoe:hover img {
   margin-top: 10%;
   margin-bottom: 5%;
 }
-.announcements button{
+.announcements button, .tab-content button{
   background-color: #e62b1e;
   color: white;
   border-color: #e62b1e;
+  transition: all 0.2s ease-out;
 }
-.announcements button:hover{
+.announcements button:hover, .tab-content button: hover {
   background-color: white;
   color:#e62b1e;
+  transition: all 0.2s ease-out;
 }
 .front-x{
     background: url(../img/x.png) no-repeat;
@@ -607,6 +628,7 @@ figure.effect-zoe:hover img {
   height: 100%;
   position: absolute;
   width:100%;
+  background-attachment: fixed;
   -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
   filter: blur(2px);
 }
@@ -617,6 +639,7 @@ figure.effect-zoe:hover img {
   background-size: 120vh;
   height: 100%;
   width: 100%;
+  margin-left: -7%;
   /*background-color: rgba(2,2,2,0.5);*/
 }
 .inspire{
@@ -678,7 +701,7 @@ figure.effect-zoe:hover img {
   position: fixed;
   overflow: hidden;
   opacity: 0;
-  transition: all 0.5s linear;
+  transition: opacity 0.5s linear;
 }
 .overlay{
     height: 0%;
@@ -690,8 +713,8 @@ figure.effect-zoe:hover img {
     background-color: #fff;
     overflow-x: hidden; /* Disable horizontal scroll */
     opacity: 0;
-    transition: all 0.5s linear;
-    overflow: scroll;
+    transition: opacity 0.5s linear;
+    overflow-y: scroll;
 }
 .overlay .closebtn{
   /*position: absolute;*/
@@ -719,19 +742,329 @@ figure.effect-zoe:hover img {
   color:#444;
   letter-spacing: 2px;
 }
+.login, .signup{
+  cursor: pointer;
+}
+
+.overlay-login{
+  height: 0;
+  width: 320px;
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  margin-left: 50%;
+  left:-160px;
+  top: 10%;
+  background-color: #f8f0ff;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  opacity: 0;
+  transition: opacity 0.5s linear;
+  overflow-y: auto;
+  color: black;
+  text-align: center;
+}
+.overlay-login .closebtn{
+  /*position: absolute;*/
+    float: right;
+    opacity: 0;
+    transform:translateY(-30px);
+    transition:all 0.3s ease-in-out;
+    top: 20px;
+    right: 45px;
+    font-size: 35px;
+    color: #e62b1e;
+    cursor: pointer;
+}
+.overlay-login .closebtn.isShowing{
+  opacity: 1;
+  transform: translateY(0px);
+}
+.overlay-login .closebtn:hover{
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.tab-group {
+  opacity: 0;
+  transform:translateY(-30px);
+  transition:all 0.3s ease-in-out;
+  list-style: none;
+  padding: 0;
+  margin: 35px -10px 20px;
+}
+.tab-group.isShowing{
+  opacity: 1;
+  transform: translateY(0px);
+}
+.tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.tab-group li p {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: rgba(160, 179, 176, 0.25);
+  color: #a0b3b0;
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.tab-group li p:hover {
+  background: #a62b1e;
+  color: #ffffff;
+}
+.tab-group .active p {
+  background: #e62b1e;
+  color: #ffffff;
+}
+.tab-content .form-group{
+  opacity: 0;
+  transition:all 0.5s ease-in-out;
+  transform: translateY(-30px);
+  margin-bottom: 35px;
+}
+.tab-content .form-group.isShowing{
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.tab-content button{
+  width: 150px;
+  padding: 10px;
+  opacity: 0;
+  transition:all 0.3s ease-in-out;
+  transform: translateY(-30px);
+  border-radius: 0%;
+  margin-bottom: 30px;
+}
+#signup button.isShowing, #login button.isShowing {
+  opacity: 1;
+  transform:translateY(0px);
+}
+
+
+label {
+  position: absolute;
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+  left: 25px;
+  color: rgba(0,0,0,0.5);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+label .req {
+  margin: 2px;
+  color: #e62b1e;
+}
+
+label.active {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  left: 10px;
+  font-size: 14px;
+}
+label.active .req {
+  opacity: 0;
+}
+
+label.highlight {
+  color: #000;
+}
+input, textarea {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #999;
+  color: #000;
+  border-radius: 0;
+  -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+input:focus, textarea:focus {
+  outline: 0;
+  border-color: #e62b1e;
+}
+
+textarea {
+  border: 2px solid #a0b3b0;
+  resize: vertical;
+}
+.overlay-login h1{
+  opacity: 0;
+  transform:translateY(-30px);
+  transition:all 0.3s ease-in-out;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 20px;
+}
+.overlay-login h1.isShowing{
+  opacity: 1;
+  transform:translateY(0px);
+  transition:all 0.3s ease-in-out;
+}
+.forgot a{
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  transition: all 0.3s ease-in;
+}
+.forgot{
+  opacity: 0;
+  transform:translateY(-30px);
+  transition: all 0.3s ease-in;
+}
+.forgot.isShowing{
+  opacity: 1;
+  transform:translateY(0px);
+  transition:all 0.3s ease-in-out;
+}
+.forgot a:hover{
+  text-decoration: none;
+  color: #e62b1e;
+  transition: all 0.3s ease-in;
+}
+#forgot-pwd{
+  display: none;
+}
+#forgot-pwd .form-group, #forgot-pwd button{
+  opacity: 1;
+  transform:translateY(0px);
+}
+
+#google-container {
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #e7eaf0;
+}
+@media only screen and (min-width: 768px) {
+  #google-container {
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  #google-container {
+    height: 600px;
+  }
+}
+
+#cd-google-map {
+  margin-top: 10%;
+  min-height: 20vh;
+  position: relative;
+}
+#cd-google-map address {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 1em 1em;
+  background-color: #e62b1e;
+  opacity: 0.9;
+  color: white;
+  font-size: 15px;
+}
+@media only screen and (min-width: 768px) {
+  #cd-google-map address {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+#cd-zoom-in, #cd-zoom-out {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: rgba(211, 104, 104, 0.9);
+  background-repeat: no-repeat;
+  background-size: 32px 64px;
+  background-image: url("../img/cd-icon-controller.svg");
+}
+.no-touch #cd-zoom-in:hover, .no-touch #cd-zoom-out:hover {
+  background-color: #d36868;
+}
+@media only screen and (min-width: 768px) {
+  #cd-zoom-in, #cd-zoom-out {
+    margin-left: 50px;
+  }
+}
+
+#cd-zoom-in {
+  background-position: 50% 0;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+@media only screen and (min-width: 768px) {
+  #cd-zoom-in {
+    margin-top: 50px;
+  }
+}
+
+#cd-zoom-out {
+  background-position: 50% -32px;
+}
+
 
 @media only screen and (max-width: 800px){
+  #cd-google-map address {
+    padding: .2em .2em;
+  }
+
   .overlay{
     top:0;
     left: 0;
     width: 100%;
   }
-  
-}
-@media only screen and (max-width: 420px){
   .front-x{
     display: none;
   }
+  .back-man{
+    height: 50%;
+  }
+  .man-front{
+    height: 51%;
+    margin-left: -5%;
+    background-size: 55vh;
+  }
+  section{
+    min-height: 50vh;
+  }
+  .inspire{
+    margin-top: 19%;
+    font-size: 50px;
+    margin-left: 18%;
+  }
+  .cloud-back{
+    width: 100%;
+    height: 50%;
+    background-attachment: fixed;
+  }
+  .adventure{
+    font-size: 50px;
+    margin-top: 20%;
+  }
+  .clock-tower{
+    height: 50%;
+    background-size: 55%;
+  }
+}
+@media only screen and (max-width: 420px){
+  
   .back-man{
     height: 40%;
   }
@@ -760,3 +1093,4 @@ figure.effect-zoe:hover img {
   }
 
 }
+

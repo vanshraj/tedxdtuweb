@@ -203,6 +203,7 @@ var windowWidth = $(window).width();
 
 
 })();
+
     //onload functions
     function codeAddress() {
             var ma= document.querySelector('.main-title');
@@ -224,26 +225,155 @@ var the_id = $(this).attr("href");
 
     return false;});
 
+//login/signup overlay
+$('.signup').click(function(){
+    fadeobjects();
+    $('#signup .form-group').each(function(i){
+        setTimeout(function(){
+            $('#signup .form-group').eq(i).addClass('isShowing');
+        },150*(i+4));
+    });
+
+    $('.signup-tab').addClass('active');
+    $('.login-tab').removeClass('active');
+    $('#login').css("display","none");
+    $('#signup').css("display","block");
+    loginopen();
+    overlayopen();
+});
+
+$('.login').click(function(){
+    fadeobjects();
+    $('#login .form-group').each(function(i){
+        setTimeout(function(){
+            $('#login .form-group').eq(i).addClass('isShowing');
+        },150*(i+4));
+    });
+    $('.login-tab').addClass('active');
+    $('.signup-tab').removeClass('active');
+    $('#signup').css("display","none");
+    $('#login').css("display","block");
+    loginopen();
+    overlayopen();
+});
+
+$('.overlay-login .closebtn').click(function(){
+       overlayclose();
+    });
+
+function fadeobjects(){
+    setTimeout(function(){
+        $('.overlay-login .closebtn').addClass('isShowing');
+    },150);
+    setTimeout(function(){
+            $('.tab-group').addClass('isShowing');
+        },300);
+    setTimeout(function(){
+            $('.overlay-login h1').addClass('isShowing');
+        },450);    
+    setTimeout(function(){
+            $('#signup button').addClass('isShowing');
+        },1200);    
+    setTimeout(function(){
+            $('#login button').addClass('isShowing');
+            $('.forgot').addClass('isShowing');
+        },900);    
+     
+}
+
+function removeobjects(){
+    $('#signup button').removeClass('isShowing');
+    $('#login button').removeClass('isShowing');
+    $('.forgot').removeClass('isShowing');
+    $('.overlay-login .closebtn').removeClass('isShowing');
+    $('.tab-group').removeClass('isShowing');
+    $('.overlay-login h1').removeClass('isShowing');
+    $('.form-group.isShowing').each(function(){
+            $('.form-group.isShowing').removeClass('isShowing');
+        });
+}
+
+function loginopen(){
+    var over = $(".overlay-login");
+    if(windowWidth<800)
+        over.css("height","480px");
+    else
+        over.css("min-height","520px")
+    over.css("opacity","1"); 
+}
+   
+    $('.overlay-login').find('input, textarea').on('keyup blur focus', function (e) {
+      
+      var $this = $(this),
+          label = $this.prev('label');
+
+          if (e.type === 'keyup') {
+                if ($this.val() === '') {
+              label.removeClass('active highlight');
+            } else {
+              label.addClass('active highlight');
+            }
+        } else if (e.type === 'blur') {
+            if( $this.val() === '' ) {
+                label.removeClass('active highlight'); 
+                } else {
+                label.removeClass('highlight');   
+                }   
+        } else if (e.type === 'focus') {
+          
+          if( $this.val() === '' ) {
+                label.removeClass('highlight'); 
+                } 
+          else if( $this.val() !== '' ) {
+                label.addClass('highlight');
+                }
+        }
+
+    });
+
+    $('.forgot').click(function(){
+        $('#signup').css('display','none');
+        $('#login').css('display','none');
+        // $('.tab-group').css('display','none');
+        $('#forgot-pwd').css('display','block');
+    });
+
+    $('.tab p').on('click', function (e) {
+      
+      e.preventDefault();
+      
+      $(this).parent().addClass('active');
+      $(this).parent().siblings().removeClass('active');
+      
+      target = $(this).attr('href');
+      target = "#"+target;
+
+      $(target + ' .form-group').each(function(){
+        $(target + ' .form-group').addClass('isShowing');
+    });
+
+      $('.tab-content > div').not(target).hide();
+      
+      $(target).fadeIn(600);
+      
+    });
 
 
 //overlay of speakers
 
     $('.effect-zoe').click(function()
     {   
+        overlayopen();
+
         var over = $(".overlay");
+        
         if( windowWidth > 800 )
             over.css("height","80%");
         else 
             over.css("height","100%");
-        over.css("overflow-x","hidden");
+        
         over.css("opacity","1");
-        
-        $('nav').css("display","none");
-        $('body').delay(2000).css("overflow-y","hidden");
-        $('.overlay-back').css("height","100%");
-        $('.overlay-back').css("opacity","1");
-
-        
+         
         var imgsrc = $(this).children('img').attr("src");
         $(".overlay img").attr("src",imgsrc);
         
@@ -256,16 +386,35 @@ var the_id = $(this).attr("href");
     });
 
     $('.overlay .closebtn').click(function(){
-        $('.overlay').css("opacity","0");
-        $('.overlay').css("height","0%");
-        $('.overlay-back').css("height","0%");
-        $('.overlay-back').css("opacity","0");
-
-        $('nav').css("display","block");
-        $('body').css("overflow-y","scroll");
+       overlayclose();
     });
 
-    //parallax javascript 
+    $('.overlay-back').click(function(){
+        overlayclose();
+    });
+
+    function overlayopen(){
+        $('nav').css("display","none");
+        $('body').css("overflow-y","hidden");
+        $('.overlay-back').css("height","100%");
+        $('.overlay-back').css("opacity","1");
+        $('#forgot-pwd').css('display','none');
+    };
+
+    function overlayclose(){
+        $('.overlay').css("opacity","0");
+        $('.overlay').css("height","0%");
+
+        $('.overlay-login').css("opacity","0");
+        $('.overlay-login').css("height","0");
+        removeobjects();
+        $('.overlay-back').css("height","0%");
+        $('.overlay-back').css("opacity","0");
+        $('nav').css("display","block");
+        $('body').css("overflow-y","scroll");
+    };
+
+//parallax javascript 
 
 $(window).scroll(function(){
 
@@ -281,7 +430,7 @@ $(window).scroll(function(){
         $(".inspire").css({'transform':'translate( 0px, ' + (wScrollB- $('.inspire').offset().top)/6+'%)'});
     }
     
-
+    
     $('.front-x').css({'transform':'translate(0px, -'+ (wScroll)/7+'%)'});
    
     // if (wScroll>= $('#about').offset().top/1.1)
