@@ -1,0 +1,97 @@
+
+@media only screen and (max-width: 780px){
+  #cd-google-map address {
+    padding: .1em .1em;
+    font-size: 1.3em;
+  }
+  #quote-carousel .carousel-control.right {
+    margin-right: 20px;
+  }
+  #quote-carousel .carousel-control.left {
+    margin-left: 20px;
+  }
+  .effect-zoe h2{
+    font-size: 14px;
+    margin-left: -5px;
+  }
+  figure h2 {
+    font-size: 15px;
+  }
+  .description{
+    display: none;
+  }
+  #speakers{
+    min-height: 20vh;
+  }
+  .announcements h1{
+    font-size: 30px;
+  }
+  .overlay{
+    top:0;
+    left: 0;
+    width: 100%;
+  }
+  .front-x{
+    display: none;
+  }
+  .back-man{
+    height: 50%;
+  }
+  .man-front{
+    height: 51%;
+    margin-left: -5%;
+    background-size: 55vh;
+  }
+  section{
+    min-height: 50vh;
+  }
+  .inspire{
+    margin-top: 19%;
+    font-size: 50px;
+    margin-left: 18%;
+  }
+  .cloud-back{
+    width: 100%;
+    height: 50%;
+    background-attachment: fixed;
+  }
+  .adventure{
+    font-size: 50px;
+    margin-top: 20%;
+  }
+  .clock-tower{
+    height: 50%;
+    background-size: 55%;
+  }
+}
+@media only screen and (max-width: 420px){
+  
+  .back-man{
+    height: 40%;
+  }
+  .man-front{
+    height: 41%;
+    background-size: 44vh;
+  }
+  section{
+    min-height: 40vh;
+  }
+  .inspire{
+    font-size: 35px;
+    margin-left: 10%;
+  }
+  .cloud-back{
+    width: 100%;
+    height: 40%;
+  }
+  .adventure{
+    font-size: 35px;
+    margin-top: 30%;
+  }
+  .clock-tower{
+    height: 40%;
+    background-size: 70%;
+  }
+
+}
+
