@@ -535,5 +535,98 @@ section{
   letter-spacing: 2px;
 }
 
+.social-footer{
+  min-height: 20vh;
+  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url(../img/red-hands.jpg) fixed no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.social-footer-block{
+  color: #ddd;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: roboto;
+}
+.social-footer-block p strong{
+  font-size:20px;
+  font-family: oswald;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+}
 
 
+.footer{
+  background-color: #000;
+  padding:20px 0px 10px;
+  text-align: center;
+
+}
+.footer p{
+  color: white;
+  font-size: 14px;
+}
+
+.c-icon {
+    width:  36px;
+    height: 36px;
+    fill: currentColor;
+    transition: .2s;
+}
+
+.c-link--facebook:hover  { color: #3b5998 }
+.c-link--twitter:hover   { color: #55acee }
+.c-link--instagram:hover { color: #833ab4 }
+.c-link--snapchat:hover  { color: #fbe00f }
+.c-link--facebook:hover::after  { background: #3b5998 }
+.c-link--twitter:hover::after   { background: #55acee }
+.c-link--instagram:hover::after { background: #833ab4 }
+.c-link--snapchat:hover::after  { background: #fbe00f }
+
+.c-link {
+    position: relative;
+    color: #ddd;
+}
+
+.c-link:not(:last-of-type) {
+    margin-right: 15px;
+}
+
+.c-tooltip::before,
+.c-tooltip::after {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -10px);
+    opacity: 0;
+    transition: .2s;
+}
+
+.c-tooltip::before {
+    content: '';
+    bottom: calc(100% + 29px);
+    border: solid 5px transparent;
+    border-top-color: currentColor;
+}
+
+.c-tooltip::after {
+    content: attr(aria-label);
+    bottom: calc(100% + 39px);
+    padding: .61em .93em;
+    font-size: .975rem;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.c-tooltip:hover::before,
+.c-tooltip:hover::after {
+    opacity: 1;
+    transform: translate(-50%);
+}
+
+.social-icons{
+  margin-top: 40px;
+}
