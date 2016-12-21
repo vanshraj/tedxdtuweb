@@ -310,12 +310,13 @@ $(window).scroll(function(){
         $(".inspire").css({'transform':'translate( 0px, ' + (wScrollB- $('.inspire').offset().top)/6+'%)'});
     }
     
-    
-    $('.front-x').css({'transform':'translate(0px, -'+ (wScroll)/7+'%)'});
-   
-    // if (wScroll>= $('#about').offset().top/1.1)
-    // {  $('.navbar-default').css("box-shadow","5px -69px 190px 220px rgba(0,0,0,1)"); }
-
-    // else { $('.navbar-default').css("box-shadow","5px -149px 90px 200px rgba(0,0,0,1)"); }
-
 });
+
+// google io countdown
+    var countDown = new IOWA.CountdownTimer.Core(
+      new Date(Date.now() + 99*24*60*60*1000 ),
+      document.querySelector('countdown-timer')
+    );
+    countDown.setUp(false);
+    countDown.attachEvents();
+    countDown.play(false);

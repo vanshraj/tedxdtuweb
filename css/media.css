@@ -1,5 +1,11 @@
 
 @media only screen and (max-width: 780px){
+  .about-title,.countdown-tedx,.announcements h1{
+    font-size: 2.5em;
+  }
+  .about-para{
+    font-size: 1.5em;
+  }
   #cd-google-map address {
     padding: .1em .1em;
     font-size: 1.3em;
@@ -22,9 +28,6 @@
   }
   #speakers{
     min-height: 20vh;
-  }
-  .announcements h1{
-    font-size: 30px;
   }
   .overlay{
     top:0;
@@ -62,6 +65,10 @@
   .clock-tower{
     height: 50%;
     background-size: 55%;
+  }
+  #sponsors img{
+  width:160px;
+  height: 66.67px;
   }
 }
 @media only screen and (max-width: 420px){
