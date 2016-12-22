@@ -311,6 +311,12 @@ $(window).scroll(function(){
     }
     
 });
+$(document).click(function(e) {
+    if (!$(e.target).is('a')) {
+        $('.collapse').removeClass('navbar-bg-add');
+        $('.collapse').collapse('hide');        
+    }
+});
 
 
 // google io countdown
