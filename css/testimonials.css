@@ -94,14 +94,17 @@
 .item blockquote p:before {
     content: "\f10d";
     font-family: 'Fontawesome';
-    float: left;
     margin-right: 10px;
+    font-size: 2em;
 }
 .carousel-indicators{
   opacity: 0.4;
 }
 blockquote .small, blockquote footer, blockquote small {
   color: #aaa;
+}
+.carousel-inner .col-sm-8{
+  margin-left: -100px;
 }
 
 /**
@@ -122,7 +125,9 @@ blockquote .small, blockquote footer, blockquote small {
 @media (max-width: 768px) { 
     
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-    
+    .carousel-inner .col-sm-8{
+     margin-left: 0px;
+    }
     #quote-carousel .carousel-indicators {
         bottom: -20px;  
     }
@@ -142,10 +147,8 @@ blockquote .small, blockquote footer, blockquote small {
   padding:80px 0px;
 }
 .testimonials {
-  min-height: 20vh;
   margin-top: 5%;
   background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://media.licdn.com/media/AAEAAQAAAAAAAAk5AAAAJDhjOWIyNDUyLWQ3MDctNDA4Zi1hZjA0LTdlZGVhMWNjMTVkYw.png) fixed no-repeat;
   background-size: cover;
-  /*-webkit-animation: gradient 8s ease infinite;
-  animation: gradient 5s ease infinite;*/
+  background-position: center center;
 }

@@ -224,7 +224,6 @@ span#small{
 @keyframes mdfad { from { opacity:0; } to { opacity:1; } }
 
 section{
-	min-height: 100vh;
   overflow: hidden;
 }
 .navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:active{
@@ -372,8 +371,12 @@ section{
   font-size: 2em;
   text-align: justify;
   letter-spacing: 2px;
-  float:left; 
-  margin-bottom: 10%;
+  float:left;
+  line-height: 1.5; 
+
+}
+.sec{
+    margin-bottom: 10%;  
 }
 .about-card{
   margin: 10px;
@@ -385,10 +388,6 @@ section{
     padding-bottom: 10px;
     text-align: center;
     border-bottom: #E62B1e 0.5px solid;
-}
-
-#speakers{
-  min-height: 50vh;
 }
 
 .announcements h1{
@@ -408,42 +407,32 @@ section{
   color:#e62b1e;
   transition: all 0.2s ease-out;
 }
-.front-x{
-    background: url(../img/x.png) no-repeat;
-    width: 960px;
-    height: 428px;
-    position: absolute;
-    background-position: bottom right;
-    margin-right: 55%;
-    margin-top: 42%;
-    right: -50%
-}
+
 .speakers-scroll{
   opacity: 1;
   transform: translateY(0px);
   transition: all 0.5s ease-out;
 }
 
-
+#fun{
+  height: 440px;
+}
 .back-man{
   background: url(../img/man-back.jpg) no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100%;
   position: absolute;
   width:100%;
+  height: 440px;
   background-attachment: fixed;
-  -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
-  filter: blur(2px);
 }
 .man-front{
   position: absolute;
   background: url(../img/front-man.png) no-repeat;
   background-position:top right;
-  background-size: 120vh;
-  height: 100%;
-  width: 100%;
-  margin-left: -7%;
+  margin-left: 50%;
+  width: 478px;
+  height: 440px;
   /*background-color: rgba(2,2,2,0.5);*/
 }
 .inspire{
@@ -451,34 +440,30 @@ section{
   font-size: 110px;
   font-weight: 900;
   color:white;
-  margin-top:29%;
+  margin-top:9%;
   margin-left: 18%;
 }
 #fun2{
   margin-top: 8%;
+  height: 440px;
 }
 .cloud-back{
   background: url(../img/cloud-back.jpg) no-repeat;
   background-position: left;
-  /*background-attachment: fixed;*/
   background-size: cover;
   position: absolute;
-  height: 100%;
+  height: 440px;
   width:126%;
   z-index: -3;
-  -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
-  filter: blur(2px);
 }
 .clock-tower{
   position: absolute;
   background: url(../img/clock-tower.png) no-repeat;
   background-position:bottom left;
-  background-size: 50%;
-  width: 100%;
+  width: 440px;
   z-index: -1;
-  height: 100%;
-  /*margin-top: 250px;*/
-  /*background-color: rgba(2,2,2,0.5);*/
+  height: 440px;
+  left: 10%;
 }
 #past-speakers{
   background-color: #000;
@@ -490,7 +475,7 @@ section{
   z-index: -2;
   margin-left:35%;
   margin-top:20%;
-  font-size: 100px;
+  font-size: 70px;
   font-weight: 900;
 }
 
@@ -548,7 +533,6 @@ section{
 }
 
 .social-footer{
-  min-height: 20vh;
   background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url(../img/red-hands.jpg) fixed no-repeat;
   background-position: center center;
   background-size: cover;
@@ -654,11 +638,11 @@ countdown-timer {
 }
 #sponsors{
   text-align: center;
-  min-height: 20vh;
 }
 #sponsors img{
   width:240px;
   height: 100px;
+  opacity: 0.8;
   border-radius:8px; 
   -webkit-filter: grayscale(100%);  
     filter: grayscale(100%);

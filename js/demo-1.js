@@ -303,14 +303,15 @@ $(window).scroll(function(){
 
     if( windowWidth > 800)
     {
-        $('.man-front').css({'transform':'translate( ' + (wScrollB- $('.man-front').offset().top)/40 +'% , 0px'});
+         $('.man-front').css({'transform':'translate( ' + (wScrollB- $('.man-front').offset().top)/40 +'% , 0px'});
     
-        $('.cloud-back').css({'transform':'translateX( -'+ (wScrollB- $('.cloud-back').offset().top)/60+'%'});
+         $('.cloud-back').css({'transform':'translateX( -'+ (wScrollB- $('.cloud-back').offset().top)/60+'%'});
 
-        $(".inspire").css({'transform':'translate( 0px, ' + (wScrollB- $('.inspire').offset().top)/6+'%)'});
+         // $(".inspire").css({'transform':'translate( 0px, ' + (wScrollB- $('.inspire').offset().top)/6+'%)'});
     }
     
 });
+
 
 // google io countdown
     var countDown = new IOWA.CountdownTimer.Core(
