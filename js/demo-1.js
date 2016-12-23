@@ -301,16 +301,17 @@ $(window).scroll(function(){
     var wScroll = $(this).scrollTop();
     var wScrollB = wScroll + $(window).height();
 
-    if( windowWidth > 800)
-    {
-         $('.man-front').css({'transform':'translate( ' + (wScrollB- $('.man-front').offset().top)/40 +'% , 0px'});
-    
-         $('.cloud-back').css({'transform':'translateX( -'+ (wScrollB- $('.cloud-back').offset().top)/60+'%'});
-
-         // $(".inspire").css({'transform':'translate( 0px, ' + (wScrollB- $('.inspire').offset().top)/6+'%)'});
+    if( wScrollB > $('.man-front').offset().top){
+        if(wScroll < $('.cloud-back').offset().top+440){
+            if( windowWidth > 800){
+                 $('.man-front').css({'transform':'translate( ' + (wScrollB- $('.man-front').offset().top)/40 +'% , 0px'});
+                 $('.cloud-back').css({'transform':'translateX( -'+ (wScrollB- $('.cloud-back').offset().top)/60+'%'});
+            }
+        }
     }
-    
 });
+
+//collaapse menu on click anywhere
 $(document).click(function(e) {
     if (!$(e.target).is('a')) {
         $('.collapse').removeClass('navbar-bg-add');
@@ -327,3 +328,19 @@ $(document).click(function(e) {
     countDown.setUp(false);
     countDown.attachEvents();
     countDown.play(false);
+
+
+//toggle switch theme
+
+$('.main-title').click(function(){
+    $('body').toggleClass('toggle-body');
+    $('.about-para').toggleClass('change-para');
+});
+
+
+//smooth scrolling
+$(function() {  
+    // Custom Easing
+    jQuery.scrollSpeed(100, 800, 'easeOutCubic');
+
+});

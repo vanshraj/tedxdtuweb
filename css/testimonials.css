@@ -1,12 +1,8 @@
 .carousel-inner p{
   font-style: italic;
+  color: white;
 }
 
-@media only screen and (max-width: 780px){
-  .testimonials{
-    min-height: 60vh;
-  }
-}
 
 @-webkit-keyframes gradient {
   0% {

@@ -39,7 +39,9 @@
 .loginmodal-container p{
   font-size: 14px;
 }
-
+.modal-dialog{
+  max-width: 350px;
+}
 
 .loginmodal-container input {
   border-radius: 5px;
