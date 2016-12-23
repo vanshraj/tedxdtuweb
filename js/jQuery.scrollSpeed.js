@@ -26,7 +26,7 @@
             var deltaY = e.originalEvent.wheelDeltaY,
                 detail = e.originalEvent.detail;
                 scrollY = $document.height() > $window.height();
-                scrollX = $document.width() > $window.width();
+                scrollX = null;
                 scroll = true;
             
             if (scrollY) {

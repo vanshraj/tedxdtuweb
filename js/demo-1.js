@@ -341,6 +341,6 @@ $('.main-title').click(function(){
 //smooth scrolling
 $(function() {  
     // Custom Easing
-    jQuery.scrollSpeed(100, 800, 'easeOutCubic');
+    jQuery.scrollSpeed(20, 0.5);
 
 });
