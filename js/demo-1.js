@@ -304,7 +304,7 @@ $(window).scroll(function(){
     if( wScrollB > $('.man-front').offset().top){
         if(wScroll < $('.cloud-back').offset().top+440){
             if( windowWidth > 800){
-                 $('.man-front').css({'transform':'translate( ' + (wScrollB- $('.man-front').offset().top)/40 +'% , 0px'});
+                 $('.man-front').css({'transform':'translate( ' + (wScrollB- $('.man-front').offset().top)/30 +'% , 0px'});
                  $('.cloud-back').css({'transform':'translateX( -'+ (wScrollB- $('.cloud-back').offset().top)/60+'%'});
             }
         }
