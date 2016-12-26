@@ -87,7 +87,7 @@ IOWA.CountdownTimer.Band.prototype.fade = function(t) {
 };
 IOWA.CountdownTimer.Band.prototype.onChangeComplete = function(t) {
     t.fadeTimer = setTimeout(function() {
-        t.fade("out")
+        t.fade("in")
     }, 500 + 1e3 * Math.random())
 };
 IOWA.CountdownTimer.Band.prototype.setQuality = function(t) {
@@ -237,7 +237,7 @@ IOWA.CountdownTimer.Core = function(t, e) {
     this.countdownMargin = 100, this.bandGutter = 40, this.bandPadding = 8, this.strokeWeight = 3, this.pixelRatio = window.devicePixelRatio, this.unitsAdded = !1, this.drawAll = !1, this.posShift = 0, this.digits = [], this.onVisibilityChange = this.onVisibilityChange.bind(this), this.onResize = this.onResize.bind(this), this.onMouseMove = this.onMouseMove.bind(this), this.onFrame = this.onFrame.bind(this)
 };
 IOWA.CountdownTimer.Core.prototype.onVisibilityChange = function() {
-    document.hidden ? this.pause() : this.play()
+    this.play()
 };
 IOWA.CountdownTimer.Core.prototype.attachEvents = function() {
     this.containerDomElement.appendChild(this.canvasElement), document.addEventListener("visibilitychange", this.onVisibilityChange, !1), window.addEventListener("resize", this.onResize), this.containerDomElement.addEventListener("mousemove", this.onMouseMove)

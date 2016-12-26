@@ -525,6 +525,9 @@ section{
 .overlay-content{
   margin:10%;
 }
+.overlay-content div{
+  text-align: center;
+}
 .overlay-content h1{
   font-size: 45px;
   color: #e62b1e;
@@ -640,7 +643,10 @@ countdown-timer {
   position: relative;
 }
 #sponsors{
-  text-align: center;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding-bottom: 5%;
 }
 #sponsors img{
   width:240px;
