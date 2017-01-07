@@ -295,21 +295,12 @@ $('.sign-in').click(function(){
     };
 
 //parallax javascript 
+    $(window).scroll(function(){
+        var wScroll = $(this).scrollTop();
+        $('.man-front').css({'transform':'translate( ' + (wScroll-100 - $('.man-front').offset().top)/30 +'% , 0px'});
+        $('.cloud-back').css({'transform':'translateX( -'+ (wScroll+800 - $('.cloud-back').offset().top)/70+'%'});
 
-$(window).scroll(function(){
-
-    var wScroll = $(this).scrollTop();
-    var wScrollB = wScroll + $(window).height();
-
-    if( wScrollB > $('.man-front').offset().top){
-        if(wScroll < $('.cloud-back').offset().top+440){
-            if( windowWidth > 800){
-                 $('.man-front').css({'transform':'translate( ' + (wScrollB- $('.man-front').offset().top)/30 +'% , 0px'});
-                 $('.cloud-back').css({'transform':'translateX( -'+ (wScrollB- $('.cloud-back').offset().top)/60+'%'});
-            }
-        }
-    }
-});
+    });
 
 //collaapse menu on click anywhere
 $(document).click(function(e) {
@@ -338,9 +329,3 @@ $('.main-title').click(function(){
 });
 
 
-//smooth scrolling
-$(function() {  
-    // Custom Easing
-    jQuery.scrollSpeed(20, 0.5);
-
-});

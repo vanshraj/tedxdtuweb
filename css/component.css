@@ -509,6 +509,7 @@ section{
     overflow-y: scroll;
 }
 .overlay .closebtn{
+  z-index: 2;
   position: absolute;
     float: right;
     top: 20px;
