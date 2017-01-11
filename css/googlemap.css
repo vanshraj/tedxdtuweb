@@ -18,6 +18,7 @@
 }
 
 #cd-google-map {
+  opacity: 0.9;
   min-height: 20vh;
   position: relative;
 }

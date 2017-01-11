@@ -144,7 +144,20 @@ blockquote .small, blockquote footer, blockquote small {
 }
 .testimonials {
   margin-top: 5%;
-  background:linear-gradient(rgba(30, 33, 94, 0.7), rgba(65, 12, 9, 0.7)),  url(https://media.licdn.com/media/AAEAAQAAAAAAAAk5AAAAJDhjOWIyNDUyLWQ3MDctNDA4Zi1hZjA0LTdlZGVhMWNjMTVkYw.png) fixed no-repeat;
+  background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url(../img/about-back.jpg) fixed no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/*.aboutdiv1{
+  background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url(../img/light-bulb.jpg) fixed no-repeat;
   background-size: cover;
   background-position: center center;
+  height: 100%;
 }
+.aboutdiv2{
+  margin-top: 10%;
+  background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url(https://scontent.fdel1-2.fna.fbcdn.net/v/l/t1.0-9/1935944_1049165388457960_4711682819480908444_n.jpg?oh=ea080815af7d8f8caa70ca3c218615cf&oe=5913C493) fixed no-repeat;
+  background-size: cover;
+  background-position: left ;
+  height: 100%;
+}*/

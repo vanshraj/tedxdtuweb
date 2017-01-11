@@ -58,7 +58,6 @@
   .cloud-back{
     width: 100%;
     height: 220px;
-    background-attachment: fixed;
   }
   .adventure{
     font-size: 50px;
@@ -75,12 +74,55 @@
   }
 }
 @media only screen and (max-width: 420px){
+
+  .overlay h1{
+    font-size: 25px;
+  }
+  .overlay p{
+    font-size: 12px;
+  }
+  .overlay img{
+    width: 140px;
+  }
+  .overlay .closebtn{
+    font-size: 45px;
+  }
+  .speakers-title, #sponsors h1 {
+    font-size: 2.4em;
+  }
+  #past-speakers h3{
+    font-size: 2em;
+  }
+  .announcements button, .tab-content button {
+    min-width: 110px;
+  }
+  .btn-group-lg>.btn, .btn-lg {
+    padding:8px 10px;
+    font-size: 10px;
+  }
+
+  .countdown .time-circle .progress {
+  width: 106px;
+  height: 106px;
+}
+.countdown .time-circle {
+  width:100px;
+  height: 100px;
+  line-height: 75px;
+}
+.countdown .time-circle .time {
+  font-size: 25px;
+}
+
   #sponsors img{
   width:120px;
   height: 50px;
   }
   .inspire, .adventure{
-    font-size: 35px;
+    font-size: 24px;
+  }
+  .adventure{
+    margin-left: 185px;
   }
 
 }

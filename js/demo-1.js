@@ -294,13 +294,16 @@ $('.sign-in').click(function(){
         $('body').css("overflow-y","scroll");
     };
 
+
 //parallax javascript 
+if(windowWidth > 800 )
     $(window).scroll(function(){
         var wScroll = $(this).scrollTop();
         $('.man-front').css({'transform':'translate( ' + (wScroll-100 - $('.man-front').offset().top)/30 +'% , 0px'});
         $('.cloud-back').css({'transform':'translateX( -'+ (wScroll+800 - $('.cloud-back').offset().top)/70+'%'});
 
     });
+
 
 //collaapse menu on click anywhere
 $(document).click(function(e) {
@@ -311,21 +314,87 @@ $(document).click(function(e) {
 });
 
 
-// google io countdown
-    var countDown = new IOWA.CountdownTimer.Core(
-      new Date(Date.now() + 99*24*60*60*1000 ),
-      document.querySelector('countdown-timer')
-    );
-    countDown.setUp(false);
-    countDown.attachEvents();
-    countDown.play(false);
+//
+// Create Countdown
+$(function() {
 
+  var Countdown = function(options) {
+    $.extend(this, {
+      endDate: new Date(2017, 4, 26, 15, 02, 20, 0)
+    }, options);
 
-//toggle switch theme
+    this.cache();
+    this.bind();
 
-$('.main-title').click(function(){
-    $('body').toggleClass('toggle-body');
-    $('.about-para').toggleClass('change-para');
+    return this;
+  };
+  $.extend(Countdown.prototype, {
+    cache: function() {
+      this.date = new Date();
+      this.secCounter = parseInt((this.endDate - this.date) / 1000);
+    },
+    bind: function() {
+      this.timer();
+    },
+    timer: function() {
+      var timeInSec = this.secCounter,
+        $daysCircle = $('.days').closest('.time-circle').find('.progress'),
+        $secondsCircle = $('.seconds').closest('.time-circle').find('.progress'),
+        $minutesCircle = $('.minutes').closest('.time-circle').find('.progress'),
+        $hoursCircle = $('.hours').closest('.time-circle').find('.progress'),
+        $seconds = $('.seconds'),
+        $days = $('.days'),
+        $minutes = $('.minutes'),
+        $hours = $('.hours');
+
+      function pad(number) {
+        return (number < 10 ? '0' : '') + number
+      }
+
+      function setScale(type, degree) {
+        type.css({
+          '-webkit-transform': 'rotate(' + -degree * 6 + 'deg)',
+          '-moz-transform': 'rotate(' + -degree * 6 + 'deg)',
+          '-ms-transform': 'rotate(' + -degree * 6 + 'deg)',
+          '-o-transform': 'rotate(' + -degree * 6 + 'deg)',
+          'transform': 'rotate(' + -degree * 6 + 'deg)'
+        });
+      };
+
+      var setInterv = setInterval(function() {
+
+        (timeInSec > 0 ? timeInSec-- : timeInSec = 0);
+
+        var getSeconds = timeInSec % 60,
+          getMinutes = Math.floor(timeInSec / 60 % 60),
+          getHours = Math.floor(timeInSec / 3600 % 24),
+          getDays = Math.floor(timeInSec / 86400 ),
+          getWeeks = Math.floor(timeInSec / 604800);
+
+        $seconds.text(pad(getSeconds));
+        $minutes.text(pad(getMinutes));
+        $hours.text(pad(getHours));
+        $days.text(pad(getDays));
+
+        setScale($secondsCircle, getSeconds);
+        setScale($minutesCircle, getMinutes);
+        setScale($hoursCircle, getHours);
+        setScale($daysCircle, getDays);
+
+        if (timeInSec <= 0) {
+          clearInterval(setInterv);
+          console.log('End of counting');
+        }
+
+      }, 1000);
+    }
+  });
+  window.Countdown = Countdown;
 });
 
-
+$(function() {
+  var app = new Countdown({
+    //properties
+    //endDate: new Date(year, month, day, hour, minute, second, miliseco)
+  });
+});
