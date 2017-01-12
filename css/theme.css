@@ -1,0 +1,241 @@
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Roboto,sans-serif;
+  font-weight: 300; 
+  color: white;
+}
+body{
+  background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(../img/about-theme.jpg) fixed no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body ::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #444;
+  opacity:0.5;
+}
+
+body::-webkit-scrollbar
+{
+  width: 4px;
+  background-color: #444;
+  opacity:0.5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+  background-color: #e62b1e;
+  opacity: 0.5;
+}
+.intro {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.about-theme{
+  display: none;
+}
+.about p{
+  margin:20px 20%;
+  text-align: justify;
+  font-family: Roboto,sans-serif;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  line-height: 1.5; 
+  background: -webkit-linear-gradient(#fff,#fff, #E62B1e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.head-title{
+  color: #eee;
+  padding-top:20px;
+  font-size: 2.3em;
+  text-align: center;
+}
+.head-theme{
+  color: #eee;
+  font-size: 2em;
+  text-align: center;
+}
+.logo {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.skip {
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+}
+.skip button{
+  display: block;
+  font-family: Roboto,sans-serif;
+  color: white;
+  outline: 0;
+  border: 3px solid rgba(255,255,255,.2);
+  border-radius: 8px;
+  font-size: .8em;
+  letter-spacing: 3px;
+  padding: 10px 30px;
+  background: 0 0;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+.skip button:hover{
+  border: 3px solid #ff2b06;
+}
+
+.intro-text-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+.intro-text-wrapper p {
+  color: #ffffff;
+  margin: 0;
+  font-size: 2.5em;
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: transparent;
+  style: preserve-3d;
+}
+.intro-text-wrapper span {
+  display: inline-block;
+  color: transparent;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.intro-text-wrapper.animation p {
+
+  -webkit-animation: OpeningSequence 7.2s linear forwards;
+          animation: OpeningSequence 7.2s linear forwards;
+}
+.intro-text-wrapper.animation p:nth-child(2) {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+.intro-text-wrapper.animation p:nth-child(3) {
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+.intro-text-wrapper.animation p:nth-child(4) {
+  -webkit-animation-delay: 18s;
+          animation-delay: 18s;
+}
+.intro-text-wrapper.animation p:nth-child(5) {
+  -webkit-animation-delay: 24s;
+          animation-delay: 24s;
+}
+.intro-text-wrapper.animation p:nth-child(6) {
+  -webkit-animation-delay: 30s;
+          animation-delay: 30s;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+}
+
+@-webkit-keyframes OpeningSequence {
+  0% {
+    text-shadow: 0 0 50px #fff;
+    opacity: 0.2;
+  }
+  30% {
+    text-shadow: 0 0 1px #fff;
+    opacity: 1;
+  }
+  85% {
+    text-shadow: 0 0 0 #fff;
+    opacity: 1;
+  }
+  100% {
+    text-shadow: 0 0 30px #fff;
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@keyframes OpeningSequence {
+  0% {
+    text-shadow: 0 0 50px #fff;
+    opacity: 0.2;
+  }
+  30% {
+    text-shadow: 0 0 1px #fff;
+    opacity: 1;
+  }
+  85% {
+    text-shadow: 0 0 0 #fff;
+    opacity: 1;
+  }
+  100% {
+    text-shadow: 0 0 30px #fff;
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+@media only screen and (max-width: 780px){
+  .intro-text-wrapper p {
+    font-size: 2em;
+  }
+  .about p{
+    margin:20px 10%;
+    text-align: justify;
+    font-family: Roboto,sans-serif;
+    font-size: 1.2em;
+  }
+  .head-title{
+  padding-top:20px;
+  font-size: 1.7em;
+  text-align: center;
+}
+.head-theme{
+  font-size: 1.5em;
+  text-align: center;
+}
+}
+
+@media only screen and (max-width: 420px){
+  .intro-text-wrapper p {
+    font-size: 1em;
+  }
+  .logo img{
+    width:120px ;
+  }
+  .skip button{
+    padding: 7px 30px;
+  }
+  .about p{
+    margin:20px;
+    text-align: justify;
+    font-family: Roboto,sans-serif;
+    font-size: 1em;
+  }
+  .head-title{
+  padding-top:20px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.head-theme{
+  font-size: 1.3em;
+  text-align: center;
+}
+}

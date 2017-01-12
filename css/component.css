@@ -107,6 +107,7 @@ p.ref {
 }
 
 .main-title {
+
 	position: absolute;
   cursor: pointer;
 	margin: 0;
@@ -128,7 +129,7 @@ p.ref {
 	
 	font-size: 6.5em;
 	font-weight: 900;
-	
+	  line-height: 25px;
 
 }
 .main-title .thin {
@@ -144,8 +145,13 @@ span#small{
 	.demo-1 .main-title, 
 	.demo-3 .main-title,
 	.demo-4 .main-title {
-		font-size: 3em;
+		font-size: 4em;
+      line-height: 15px;
 	}
+  span#small{
+  font-size: 10px;
+  letter-spacing: 0em;
+}
 
 	.demo-2 .main-title {
 		font-size: 4em;
