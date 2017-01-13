@@ -50,9 +50,6 @@ body::-webkit-scrollbar-thumb
   font-size: 1.3em;
   letter-spacing: 2px;
   line-height: 1.5; 
-  background: -webkit-linear-gradient(#fff,#fff, #E62B1e);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 .head-title{
   color: #eee;
@@ -76,7 +73,18 @@ body::-webkit-scrollbar-thumb
   bottom: 12px;
   left: 15px;
 }
-.skip button{
+
+.home {
+  float: right;
+    margin-bottom: 15px;
+    margin-right: 25px;
+}
+.home a{
+  color: white;
+  text-decoration: none;
+}
+
+.skip button, .home button{
   display: block;
   font-family: Roboto,sans-serif;
   color: white;
@@ -90,7 +98,7 @@ body::-webkit-scrollbar-thumb
   cursor: pointer;
   transition: all .5s ease;
 }
-.skip button:hover{
+.skip button:hover, .home button:hover{
   border: 3px solid #ff2b06;
 }
 
@@ -227,7 +235,7 @@ body::-webkit-scrollbar-thumb
     margin:20px;
     text-align: justify;
     font-family: Roboto,sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
   }
   .head-title{
   padding-top:20px;
