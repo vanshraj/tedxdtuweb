@@ -248,6 +248,7 @@ body::-webkit-scrollbar-thumb
     font-size: 1em;
   }
   .logo img{
+
     width:120px ;
   }
   .skip button,.next button{
@@ -263,6 +264,18 @@ body::-webkit-scrollbar-thumb
   padding-top:20px;
   font-size: 3.5em;
   text-align: center;
+}
+.logo {
+  position: absolute;
+  bottom: auto;
+  top: 15px;
+  right: 15px;
+}
+.skip {
+  position: absolute;
+  bottom: 12px;
+  left: auto;
+  right: 15px;
 }
 .head-theme{
   font-size: 1.8em;
