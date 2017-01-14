@@ -320,7 +320,7 @@ $(function() {
 
   var Countdown = function(options) {
     $.extend(this, {
-      endDate: new Date(2017, 3, 10, 15, 02, 20, 0)
+      endDate: new Date(2017, 3, 18, 15, 02, 20, 0)
     }, options);
 
     this.cache();
