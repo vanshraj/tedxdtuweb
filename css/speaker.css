@@ -90,6 +90,7 @@
 
 .effect-zoe h2,
 .effect-zoe p {
+  text-transform: uppercase;
   margin: 0;
   opacity: 0;
   letter-spacing: 1px;
@@ -157,3 +158,12 @@
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
+@media only screen and (max-width: 780px){
+    .effect-zoe h2{
+    font-size: 14px;
+    margin-left: -5px;
+  }
+    .effect-zoe p{
+    font-size: 12px;
+    margin-left: -5px;
+  }
