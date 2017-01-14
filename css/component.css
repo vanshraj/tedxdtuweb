@@ -832,3 +832,9 @@ section{
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
+.ted_x{
+    font-variant: small-caps;
+    vertical-align: top;
+    position: relative;
+    bottom: 0.22em;
+}
