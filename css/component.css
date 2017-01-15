@@ -784,6 +784,7 @@ section{
 #ourteam{
   margin: 30px auto;
 }
+
 #ourteam .team-title{
   margin: 30px auto;
 }
@@ -842,6 +843,12 @@ section{
     transform: translateY(8px);
   }
 }
+
+.footer a{
+  color: #e62b1e;
+  text-transform: uppercase;
+  font-size: 1em;
+}
 .hvr-hang {
   display: inline-block;
   vertical-align: middle;
@@ -874,6 +881,7 @@ section{
 }
 .detail_container{
   width: 100%;
+  font-family: 'roboto', sans-serif;
 
 }
 .ted_detail{
@@ -898,4 +906,45 @@ section{
   bottom:80px;
   width:100%;*/
   padding : 3px 50px;
+}
+
+.year-title{
+  font-family: 'roboto';
+  font-weight: lighter;
+}
+
+.loader-overlay{
+  position: absolute;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  z-index: 999999;
+}
+
+.loader-box{
+      position: absolute;
+    display: inline-block;
+    margin-left: 50vw;
+    margin-top: 50vh;
+    left: -60px;
+    top: -60px;
+}
+#loader {
+  border: 16px solid transparent;
+  border-radius: 50%;
+  border-bottom: 16px solid #e62b1e;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

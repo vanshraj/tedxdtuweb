@@ -18,7 +18,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
 	</head>
 	<body>
-
+		<div class="loader-overlay"><div class="loader-box"><div id="loader"></div></div></div>
 		
 
 		<!-- navbar -->
@@ -34,7 +34,7 @@
 			    </div>
 			    <div class="collapse navbar-collapse" id="myNavbar">
 			      <ul class="nav navbar-nav">
-			        <li class="active"><a href="index.html">Home</a></li>
+			        <li class="active"><a href="#demo-canvas">Home</a></li>
 			        <li><a href="#about">About</a></li>
 			        <li><a href="#speakers">Speakers</a></li>
 			        <li><a href="#past-speakers">Past Speakers</a></li>
@@ -88,15 +88,17 @@
 				<div class="overlay-content">
 					<div class="col-md-4"><img class="img-circle"></div>
 					<div class="col-md-8"><h1></h1></div>
+					<div class="col-md-8">
+						<iframe class="youtube-frame" src=""  frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-4"></div>
 					<div class="col-md-8"><p></p></div>
 				</div>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md-4"></div>
-				<div class="col-md-8">
-					<iframe class="youtube-frame" src=""  frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
+				
+			</div> -->
 		</div>
 		
 		<!-- /speakers overlay -->
@@ -146,12 +148,12 @@
 				<div class="time-circle">
 					<div class="progress"></div>
 					<span class="time minutes hvr-hang"></span>
-					<span class="time-name hvr-hang">min</span>
+					<span class="time-name hvr-hang">mins</span>
 				</div>
 				<div class="time-circle">
 					<div class="progress"></div>
 					<span class="time seconds hvr-hang"></span>
-					<span class="time-name hvr-hang">sec</span>
+					<span class="time-name hvr-hang">secs</span>
 				</div>
 				</div>
 			<div class="about-back">
@@ -169,7 +171,7 @@
 							<div class="about-card">
 							<h1  class="about-title">About TEDx</h1>
 							<h5 class="about-para">
-								The TEDx Program is designed to help communities, organizations and individuals to spark conversation and connection through local TED like experiences.At TEDx event, a screening of TED Talks videos or a combination of live presenters and TED Talks videos sparks deep conversation and connections at the local level. TEDx events are planned and coordinated independently, under a free license granted by TED.
+								The TEDx Program is designed to help communities, organizations and individuals to spark conversation and connection through local TED like experiences. At TEDx events, a screening of TED Talks videos or a combination of live presenters and TED Talks videos sparks deep conversation and connections at the local level. TEDx events are planned and coordinated independently, under a free license granted by TED.
 							</h5>
 							</div>
 						</div>
@@ -187,7 +189,7 @@
 						<div class="about-card">
 							<h1 class="about-title">About TEDxDTU</h1>
 							<h5 class="about-para sec" style="text-align:center">
-								Our goal is to explore unity in diversity, kindle the minds of the youth, enable them to ideate and enter constructive peaceful dialogue, to nurture scientific thought and development in technology, and to promote equality, freedom and secularism in society.TEDxDTU aims to coalesce bright minds who are looking for some ground-breaking ideas to reshape their own and their community's future.<br />
+								Our goal is to explore unity in diversity, kindle the minds of the youth, enable them to ideate and enter constructive peaceful dialogue, to nurture scientific thought and development in technology, and to promote equality, freedom and secularism in society. TEDxDTU aims to coalesce bright minds who are looking for some ground-breaking ideas to reshape their own and their community's future.<br />
 								 Here, speakers from diverse backgrounds will inspire the global audience to learn, explore and uplift themselves and make an impact in the society. It is a civic phenomenon which aims to inculcate in people the sense of universal responsibility while respecting the virtues of individuality. We aspire to inspire people towards humanitarian services with transformative potential of the human mind.
 							</h5>
 						</div>
@@ -316,7 +318,7 @@
 					<figure class="effect-zoe">
 						<div class="speaker-info">
 							<p>
-							A Dental surgeon, model and a pageant choreographer, Dr. Shivangi Maletia has a broad spectrum of prodigious accomplishments. <br><br>Dr.Maletia won her first pageant title in 2014, as ‘Mrs. India Worldwide’ and went on to win other prestigious titles such as ‘Craftsvilla Miss Ethnic 2015’, ‘Mrs. Heritage World 2015’ and ‘Femina Officially Gorgeous’ in 2016.<br><br>Dr. Maletia runs a trust called ‘Saanidhya’ for spreading medical awareness and serves as a psychological counselor for women who have been victims of acid attacks and domestic violence.<br><br>Dr. Maletia is the recipient of ‘Sashakt Nari Parishad Achiever of the Year’ and ‘MAGICKAS Women Achiever of the Year’.<br><br>
+							A Dental surgeon, model and a pageant choreographer, Dr. Shivangi Maletia has a broad spectrum of prodigious accomplishments. <br><br>Dr. Maletia won her first pageant title in 2014, as ‘Mrs. India Worldwide’ and went on to win other prestigious titles such as ‘Craftsvilla Miss Ethnic 2015’, ‘Mrs. Heritage World 2015’ and ‘Femina Officially Gorgeous’ in 2016.<br><br>Dr. Maletia runs a trust called ‘Saanidhya’ for spreading medical awareness and serves as a psychological counselor for women who have been victims of acid attacks and domestic violence.<br><br>Dr. Maletia is the recipient of ‘Sashakt Nari Parishad Achiever of the Year’ and ‘MAGICKAS Women Achiever of the Year’.<br><br>
 							</p>
 						</div>
 						<img src="img/shivangi.jpg" alt="img26"/>
@@ -358,7 +360,7 @@
 						<img src="img/ritu.jpg" alt="img26"/>
 						<figcaption>
 							<h2>Ritu <span>Marya</span></h2>
-							<p class="description">Editor in Chief at Entrepreneur Media</p>
+							<p class="description">Editor-in-Chief at Entrepreneur Media</p>
 							<a class="youtube-link" href=""></a>
 						</figcaption>			
 					</figure>
@@ -565,7 +567,7 @@
 			                </div>
 			                <div class="col-sm-8">
 			                  <p>Love art in yourself, and not yourself in art.</p>
-			                  <small>Richa Chadha</small>
+			                  <small>Richa Chadda</small>
 			                </div>
 			              </div></div>
 			            </blockquote>
@@ -601,7 +603,7 @@
 					<div class="container">
 						<div class="announcements">
 							<h1>Sponsors to be announced soon.</h1>
-							<h3>If interested, mail us at <a href="mailto:partnership@tedxdtu.in" style="color:#b4cee8">partnership@tedxdtu.in</a></h3>
+							<h3>If interested, mail us at <a href="mailto:partnership@tedxdtu.in" style="color:#b4cee8">partnership@tedxdtu.in</a>.</h3>
 						</div>
 						<!-- <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<div class="sponsors-box"><img src="img/DU-beat.jpg" alt="img26"/></div>
@@ -651,7 +653,7 @@
 		                </a>
 		            </div>
 		            <div class="social-footer-block col-xs-12 col-md-3">
-		                <p><strong>Address</strong><br>Delhi Technological University, Shahbad Daulatpur, Main Bawana Road<br>Delhi, 110042</p>
+		                <p><strong>Address</strong><br>Delhi Technological University, Shahbad Daulatpur, Main Bawana Road<br>( Nearest Metro Station )<br>Samaypur Badli<br>Delhi, 110042</p>
 		            </div>
 		            <div class="social-footer-block col-xs-12 col-md-3">
 						<p><strong>Contact Us</strong><br>Email: contact@tedxdtu.in<br>Phone: +91 8586096079<br> +91 8373920868<br></p>
@@ -709,7 +711,7 @@
 		</section>
 		<footer class="footer">
 		    <div class="container">
-		        <p>This independent TEDx event is operated under license from TED. Copyright © TEDxDTU 2017. All Rights reserved.</p>
+		        <p>This independent TEDx event is operated under license from TED. Copyright © TEDxDTU 2017. All Rights reserved. <br><br>Designed by <a href="https://github.com/vanshraj/">Vanshaj Behl</a> and Developed by <a href="https://github.com/ciplpj">Ankit Jain.</a></p>
 		    </div>
 		</footer>
 

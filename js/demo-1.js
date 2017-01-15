@@ -212,9 +212,11 @@ var windowWidth = $(window).width();
             ma.className += " fade-in one";
             nb.className += " nav-fade";
             md.className += " menu-down-fade";
+            $('.loader-overlay').fadeOut();
+            $('body').css("overflow-y","scroll");
         }
     window.onload = codeAddress;
-
+    $('body').css("overflow-y","hidden");
     $('a[href^="#"]').click(function(){
 
 var the_id = $(this).attr("href");
@@ -251,7 +253,7 @@ $('.sign-in').click(function(){
         overlayopen();
 
         var over = $(".overlay");
-        
+        $(".overlay iframe").css('display','block');
         if( windowWidth > 800 )
             over.css("height","80%");
         else 
@@ -264,7 +266,8 @@ $('.sign-in').click(function(){
 
         var videosrc = $(this).children('figcaption');
         videosrc = videosrc.children('a').attr('href');
-        // videosrc = videosrc + "&output=embed";
+        if(videosrc=="")
+            $(".overlay iframe").css('display','none');
         $(".overlay iframe").attr('src',videosrc);
         
         var speakerName = $(this).children('figcaption');
@@ -326,7 +329,7 @@ $(function() {
 
   var Countdown = function(options) {
     $.extend(this, {
-      endDate: new Date(2017, 2, 18, 17, 0, 0, 0)
+      endDate: new Date(2017, 2, 18, 6, 0, 0, 0)
     }, options);
 
     this.cache();
@@ -404,3 +407,4 @@ $(function() {
     // endDate: new Date(2017, 3, 18, 17, 0, 0, 0)
   });
 });
+
