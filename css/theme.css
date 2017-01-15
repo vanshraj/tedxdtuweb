@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb
   display: none;
 }
 .about p{
-  margin:20px 20%;
+  margin:20px 7%;
   text-align: justify;
   font-family: 'limelight',sans-serif;
   font-size: 1.3em;
