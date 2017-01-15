@@ -1,3 +1,7 @@
+<!-- <?php
+	define("PAGE","theme");
+	require_once("library/counter.php");
+?> -->
 <html>
 <head>
 	<title>About Theme</title>
@@ -19,20 +23,20 @@
 		</div>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-2 col-md-offset-2 text-center">
-					<a href="http://theme.tedxdtu.in">
+				<div class="col-md-2 col-md-offset-1 text-center">
+					<p><a href="http://theme.tedxdtu.in">
 						<img src="img/mascot.png"/>
-					</a>
+					</a></p>
 				</div>
-				<div class="col-md-7">
+				<div class="col-md-7 col-md-offset-1">
 					<div class="about">	
-						<p>Referring to the region between the absolutes of black and white, our theme <a href="http://theme.tedxdtu.in" style="text-decoration: none;color: white;font-weight: bold;">‘Because Grey Matters’</a> represents the complexity of human lives, minds and situations. Grey represents a multitude of hues within itself, each succinctly unique in its identity yet inherently similar to its accompanying shades. Similarly, all of us are our own shade and hue but are, nonetheless, deeply connected to each other by the thread of humanity.<br><br>However, our inhibitions and inflexibility to accept those in the 'grey region' leads numerous people to be ostracised and harassed. Most oppressed people, with issues that many don't lend an ear to, often find themselves battling a lone war and are oft left in the grey. A glimpse into the ongoing humanitarian conflicts prevailing the planet currently only attest to this harsh truth.<br><br>Grey Matter also alludes to the importance of broad minded thinking in a world dominated by dogmatic and propagandist views. Pushing the boundaries of innovation, creativity, art, music and innumerable other fields, 'Because Grey Matters' encourages everyone to express themselves articulately and realise that humanity fundamentally lies in this overlap of colours and regions and not just in polarizing extremes.</p>
+						<p>Referring to the region between the absolutes of black and white, our theme <a href="http://theme.tedxdtu.in" style="text-decoration: none;color: white;font-weight: bold;">‘Because Grey Matters’</a> represents the complexity of human lives, minds and situations. Grey represents a multitude of hues within itself, each succinctly unique in its identity yet inherently similar to its accompanying shades. Similarly, all of us are our own shade and hue but are, nonetheless, deeply connected to each other by the thread of humanity.<br><br>However, our inhibitions and inflexibility to accept those in the 'grey region' leads numerous people to be ostracised and harassed. Most oppressed people, with issues that many don't lend an ear to, often find themselves battling a lone war and are oft left in the grey. A glimpse into the ongoing humanitarian conflicts prevailing the planet currently only attest to this harsh truth.<br><br>Grey Matter also alludes to the importance of broad minded thinking in a world dominated by dogmatic and propagandist views. Pushing the boundaries of innovation, creativity, art, music and innumerable other fields, <strong>'Because Grey Matters'</strong> encourages everyone to express themselves articulately and realise that humanity fundamentally lies in this overlap of colours and regions and not just in polarizing extremes.</p>
 					</div>
 				</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
-		<a href="index.html"><div class="home" ><button  class="home-button">Home</button></div></a>
+		<a href="index.php"><div class="home" ><button  class="home-button">Home</button></div></a>
 	</section>
 	<section class="intro">
 		<div class="intro-text-wrapper animation">

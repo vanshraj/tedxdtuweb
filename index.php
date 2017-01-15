@@ -1,4 +1,10 @@
-<!-- <header> --> 
+<!--
+<?php
+	define("PAGE","index");
+	require_once("library/counter.php");
+?>
+-->
+<!-- <header> -->
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
@@ -39,8 +45,8 @@
 			        <li><a href="#speakers">Speakers</a></li>
 			        <li><a href="#past-speakers">Past Speakers</a></li>
 			        <li><a href="#sponsors">Partners</a></li>
-			        <li><a target="_blank" href="theme.html">Theme</a></li>
-			        <li><a target="_blank" href="team.html">Team</a></li>
+			        <li><a target="_blank" href="theme.php">Theme</a></li>
+			        <li><a target="_blank" href="team.php">Team</a></li>
 			      </ul>
 			      <ul class="nav navbar-nav navbar-right">
 			        <!-- <li><a data-toggle="modal" data-target="#login-modal" class="login">Login/SignUp</a></li> -->
@@ -182,7 +188,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="about-card">
-							<a href="theme.html">
+							<a href="theme.php">
 								<img src="img/mascot.png" style="margin-top: 8%;margin-left: -28%;"/>
 							</a>
 						</div>

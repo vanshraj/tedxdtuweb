@@ -1,3 +1,9 @@
+<!--
+<?php
+	define("PAGE","team");
+	require_once("library/counter.php");
+?>
+-->
 <!-- <header> --> 
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -33,13 +39,13 @@
 			    </div>
 			    <div class="collapse navbar-collapse" id="myNavbar">
 			      <ul class="nav navbar-nav">
-			        <li><a href="index.html">Home</a></li>
-			        <li><a href="index.html#about">About</a></li>
-			        <li><a href="index.html#speakers">Speakers</a></li>
-			        <li><a href="index.html#past-speakers">Past Speakers</a></li>
-			        <li><a href="index.html#sponsors">Sponsors</a></li>
-			        <li><a href="theme.html">Theme</a></li>
-			        <li class="active"><a href="team.html">Team</a></li>
+			        <li><a href="index.php">Home</a></li>
+			        <li><a href="index.php#about">About</a></li>
+			        <li><a href="index.php#speakers">Speakers</a></li>
+			        <li><a href="index.php#past-speakers">Past Speakers</a></li>
+			        <li><a href="index.php#sponsors">Sponsors</a></li>
+			        <li><a href="theme.php">Theme</a></li>
+			        <li class="active"><a href="team.php">Team</a></li>
 			      </ul>
 			      <!-- <ul class="nav navbar-nav navbar-right">
 			        <li><a data-toggle="modal" data-target="#login-modal" class="login">Login/SignUp</a></li>
