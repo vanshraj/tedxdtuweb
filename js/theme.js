@@ -32,11 +32,18 @@ $(document).ready(function(){
 		    	$('.about-theme').fadeIn(4000);
 	  		}
 	  		else{
-	  			y = '.intro-text-wrapper.animation p:nth-child('+x+')';
-		  		z = '.intro-text-wrapper.animation p:nth-child('+(x+1)+')';
-		  		$(y).css('display','none');
-		  		$(z).css('-webkit-animation-delay','1s');
-		  		$(z).css('animation-delay','1s');
+	  			 y = '.intro-text-wrapper.animation p:nth-child('+x+')';
+		  		 $(y).css('display','none');
+		  		$('.intro-text-wrapper.animation p').each(function(){
+		  			var delay = $(this).css('animation-delay');
+		  			delay = delay.slice(0, -1);
+		  			delay = delay -4;
+		  			delay=delay+'s';
+		  			console.log(delay);
+		  			$(this).css('animation-delay', delay );
+		  			$(this).css('-webkit-animation-delay', delay );
+		  		});
+
 	  		}
 	  		
 	  	});

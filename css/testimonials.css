@@ -153,4 +153,5 @@ blockquote .small, blockquote footer, blockquote small {
   background-size: cover;
   background-position: top center;
   height: 100%;
+  padding: 20px 0;
 }
