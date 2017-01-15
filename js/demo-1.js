@@ -305,14 +305,38 @@ $('.sign-in').click(function(){
 
 
 //parallax javascript 
-if(windowWidth > 800 )
-    $(window).scroll(function(){
-        var wScroll = $(this).scrollTop();
-        $('.man-front').css({'transform':'translate( ' + (wScroll-100 - $('.man-front').offset().top)/30 +'% , 0px'});
-        $('.cloud-back').css({'transform':'translateX( -'+ (wScroll+800 - $('.cloud-back').offset().top)/70+'%'});
+(function(){
+    man_front = $('.man-front');
+    cloud_back = $('.cloud-back');
+    
+    man = {
+        scroll : man_front.offset().top - window.innerHeight,
+        height : man_front.outerHeight(),
+        top : man_front.offset().top
+    };
+    man.scrollTill = man.top + man.height;
+    
+    cloud = {
+        scroll : cloud_back.offset().top - window.innerHeight,
+        height : cloud_back.outerHeight(),
+        top : cloud_back.offset().top
+    }
+    cloud.scrollTill = cloud.top + cloud.height;
 
-    });
+    //parallax javascript 
+    if(windowWidth > 800 )
+        $(window).scroll(function(){
+            var wScroll = window.scrollY;
+            if(wScroll > man.scroll && wScroll < man.scrollTill){
+                man_front.css({'transform':'translate( ' + (wScroll-100 - man.top)/30 +'% , 0px'});
+            }else if(wScroll > cloud.scroll && wScroll < cloud.scrollTill){
+                cloud_back.css({'transform':'translateX( -'+ (wScroll+800 - cloud.top)/70+'%'});
+            }
+            //var wScroll = $(this).scrollTop();
 
+        });
+
+})()
 
 //collaapse menu on click anywhere
 $(document).click(function(e) {
