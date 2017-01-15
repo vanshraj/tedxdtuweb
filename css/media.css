@@ -73,7 +73,7 @@
 }
 @media only screen and (max-width: 420px){
   .testimonials{
-    min-height: 75vh;
+    min-height: 94vh;
   }
   .ted_detail.left {
     bottom: 60px;
@@ -136,8 +136,20 @@
   .adventure{
     margin-left: 185px;
   }
-  .team-info{
+.team-info{
   font-size: 14px;
+}
+.demo-effect-zoe h2, .demo-effect-zoe p{
+  font-size: 2em;
+}
+.demo-effect-zoe p{
+  font-size: 1.1em;
+}
+#ourteam .year-title h3{
+  font-size: 18px;
+}
+#ourteam .team-title{
+  font-size: 3.3em;
 }
 
 }
