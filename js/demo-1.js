@@ -261,6 +261,11 @@ $('.sign-in').click(function(){
          
         var imgsrc = $(this).children('img').attr("src");
         $(".overlay img").attr("src",imgsrc);
+
+        var videosrc = $(this).children('figcaption');
+        videosrc = videosrc.children('a').attr('href');
+        // videosrc = videosrc + "&output=embed";
+        $(".overlay iframe").attr('src',videosrc);
         
         var speakerName = $(this).children('figcaption');
         speakerName = speakerName.children('h2').html();
@@ -292,6 +297,7 @@ $('.sign-in').click(function(){
         $('.overlay-back').css("opacity","0");
         $('nav').css("display","block");
         $('body').css("overflow-y","scroll");
+        $(".overlay iframe").attr('src','');
     };
 
 

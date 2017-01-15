@@ -45,6 +45,11 @@
     margin-left: 100%;
     left: -239px;
   }
+  .youtube-frame{
+  margin:10%;
+  width: 80vw;
+  height: 50vh;
+}
   .inspire{
     margin-top: 19%;
     font-size: 50px;
@@ -78,6 +83,11 @@
   .ted_detail.left {
     bottom: 60px;
     left: 0px;
+}
+.youtube-frame{
+  margin:10%;
+  width: 80vw;
+  height: 25vh;
 }
 .btn-scroll-down{
   opacity: 0;

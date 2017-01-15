@@ -484,7 +484,7 @@ section{
   position: absolute;
   font-family: oswald;
   z-index: -2;
-  margin-left:35%;
+  margin-left:37%;
   margin-top:10%;
   font-size: 70px;
   font-weight: 900;
@@ -588,15 +588,28 @@ section{
     fill: currentColor;
     transition: .2s;
 }
+.youtube-link{
+  display: none;
+}
+.youtube-frame{
+  margin:10%;
+  margin-top: 20px;
+  width: 35vw;
+  height: 50vh;
+}
 
 .c-link--facebook:hover  { color: #3b5998 }
 .c-link--twitter:hover   { color: #55acee }
 .c-link--instagram:hover { color: #833ab4 }
 .c-link--snapchat:hover  { color: #fbe00f }
+.c-link--youtube:hover  { color:  #bb0000 }
+.c-link--linkedin:hover  { color: #4875B4 }
 .c-link--facebook:hover::after  { background: #3b5998 }
 .c-link--twitter:hover::after   { background: #55acee }
 .c-link--instagram:hover::after { background: #833ab4 }
 .c-link--snapchat:hover::after  { background: #fbe00f }
+.c-link--youtube:hover::after { background:  #bb0000 }
+.c-link--linkedin:hover::after  { background: #4875B4 }
 
 .c-link {
     position: relative;
@@ -720,6 +733,8 @@ section{
   display: -moz-inline-stack;
   display: inline-block;
   font-size: 54px;
+  font-family: 'roboto', sans-serif;
+  font-weight: 100;
 }
 .countdown .time-circle .time-name {
   font-size: 16px;
