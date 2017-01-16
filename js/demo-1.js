@@ -266,6 +266,15 @@ $('.sign-in').click(function(){
 
         var videosrc = $(this).children('figcaption');
         videosrc = videosrc.children('a').attr('href');
+        if(!videosrc){
+            over.find(".col-md-8").eq(1).css({
+                "display" : "none"
+            });
+        }else{
+            over.find(".col-md-8").eq(1).css({
+                "display" : "block"
+            });
+        }
         if(videosrc=="")
             $(".overlay iframe").css('display','none');
         $(".overlay iframe").attr('src',videosrc);
@@ -432,3 +441,10 @@ $(function() {
   });
 });
 
+$(function(){
+    $(".arrow-up").on("click",function(){
+        $("html,body").animate({
+            scrollTop:"0px"
+        },"slow")
+    })
+});

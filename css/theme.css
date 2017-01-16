@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb
   display: none;
 }
 .about p{
-  margin:20px 20%;
+  margin:20px 7%;
   text-align: justify;
   font-family: 'limelight',sans-serif;
   font-size: 1.3em;
@@ -79,6 +79,8 @@ body::-webkit-scrollbar-thumb
   background: -webkit-linear-gradient(#e62b1e,#fff, #fff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  font-size: 3.2em;
+  font-weight: bold;
 }
 .logo {
   position: absolute;

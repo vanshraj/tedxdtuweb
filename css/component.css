@@ -448,6 +448,11 @@ section{
   width: 478px;
   height: 440px;
 }
+
+.about-card img{
+  margin-top: 8%;
+  margin-left: -28%;
+}
 .inspire{
   position: absolute;
   font-size: 110px;
@@ -895,7 +900,7 @@ section{
   left: 5px;
 }
 .ted_detail h4{
-  font-size: 1.5em;
+  font-size: 2em;
 }
 .ted_detail.right{
   right: 5px;
@@ -947,4 +952,28 @@ section{
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+.arrow-up{
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  border-radius: 50%;
+  background-color: #312f2f;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #ca3d3d;
+  cursor: pointer;
+}
+.arrow-up::after{
+    content: " ";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    border-top-right-radius: 4px;
+    transform: rotate(45deg);
+    border-top: 2px solid red;
+    border-left: 2px solid red;
+    top: 18px;
+    right: 13px;
 }

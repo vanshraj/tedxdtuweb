@@ -1,3 +1,9 @@
+<!--
+<?php
+	define("PAGE","team");
+	require_once("library/counter.php");
+?>
+-->
 <!-- <header> --> 
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -33,13 +39,13 @@
 			    </div>
 			    <div class="collapse navbar-collapse" id="myNavbar">
 			      <ul class="nav navbar-nav">
-			        <li><a href="index.html">Home</a></li>
-			        <li><a href="#about">About</a></li>
-			        <li><a href="#speakers">Speakers</a></li>
-			        <li><a href="#past-speakers">Past Speakers</a></li>
-			        <li><a href="#sponsors">Sponsors</a></li>
-			        <li><a href="theme.html">Theme</a></li>
-			        <li class="active"><a href="team.html">Team</a></li>
+			        <li><a href="index.php">Home</a></li>
+			        <li><a href="index.php#about">About</a></li>
+			        <li><a href="index.php#speakers">Speakers</a></li>
+			        <li><a href="index.php#past-speakers">Past Speakers</a></li>
+			        <li><a href="index.php#sponsors">Sponsors</a></li>
+			        <li><a href="theme.php">Theme</a></li>
+			        <li class="active"><a href="team.php">Team</a></li>
 			      </ul>
 			      <!-- <ul class="nav navbar-nav navbar-right">
 			        <li><a data-toggle="modal" data-target="#login-modal" class="login">Login/SignUp</a></li>
@@ -134,7 +140,7 @@
 					<figure class="demo-effect-zoe">
 						<!-- <img src="img/red-hands.jpg" alt="img26"/> -->
 						<figcaption>
-							<h2>Tabish <span>Khan </span></h2>
+							<h2>Mohammad Tabish <span>Khan </span></h2>
 							<p class="description"></p>
 						</figcaption>			
 					</figure>
@@ -267,7 +273,7 @@
 		
 		<footer class="footer">
 		    <div class="container">
-		        <p>This independent TEDx event is operated under license from TED. Copyright © TEDxDTU 2017. All Rights reserved. <br><br>Designed by <a href="https://github.com/vanshraj">Vanshaj Behl</a> and Developed by <a href="https://github.com/ciplpj">Ankit Jain.</a></p>
+		        <p>This independent TEDx event is operated under license from TED. Copyright © TEDxDTU 2017. All rights reserved. <br><br>Designed by <a href="https://github.com/vanshraj">Vanshaj Behl</a> and Developed by <a href="https://github.com/ciplpj">Ankit Jain.</a></p>
 		    </div>
 		</footer>
 

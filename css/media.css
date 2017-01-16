@@ -84,9 +84,17 @@
     bottom: 60px;
     left: 0px;
 }
+.arrow-up {
+    bottom: 30px;
+    right: 30px;
+  }
+.about-card img{
+  margin-top: 8%;
+  margin-left: 0%;
+}
 .youtube-frame{
   margin:10%;
-  width: 80vw;
+  width: 70vw;
   height: 25vh;
 }
 .btn-scroll-down{

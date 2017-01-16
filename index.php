@@ -1,4 +1,10 @@
-<!-- <header> --> 
+<!--
+<?php
+	define("PAGE","index");
+	require_once("library/counter.php");
+?>
+-->
+<!-- <header> -->
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
@@ -38,9 +44,9 @@
 			        <li><a href="#about">About</a></li>
 			        <li><a href="#speakers">Speakers</a></li>
 			        <li><a href="#past-speakers">Past Speakers</a></li>
-			        <li><a href="#sponsors">Sponsors</a></li>
-			        <li><a target="_blank" href="theme.html">Theme</a></li>
-			        <li><a target="_blank" href="team.html">Team</a></li>
+			        <li><a href="#sponsors">Partners</a></li>
+			        <li><a target="_blank" href="theme.php">Theme</a></li>
+			        <li><a target="_blank" href="team.php">Team</a></li>
 			      </ul>
 			      <ul class="nav navbar-nav navbar-right">
 			        <!-- <li><a data-toggle="modal" data-target="#login-modal" class="login">Login/SignUp</a></li> -->
@@ -115,10 +121,10 @@
 						<a href="#about" data-start="display: block" data-100-start="display: none" class="btn-scroll-down scroll skrollable skrollable-between" style="display: block;"></a>
 						<div class="detail_container">
 							<div class="ted_detail left">
-								<h4>Venue : Dr. B.R. Ambedkar Auditorium, Delhi Technological University.</h4>
+								<h4>Venue: Dr. B.R. Ambedkar Auditorium, Delhi Technological University.</h4>
 							</div>
 							<div class="ted_detail right">
-								<h4>Date : 18<span class="superscript">th</span> March, 2017</h4>
+								<h4>Date: 18<span class="superscript">th</span> March, 2017</h4>
 							</div>
 						</div>
 					</div>
@@ -182,7 +188,9 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="about-card">
-							<img src="img/front-man.png" style="margin-top: 8%;margin-left: -28%;"/>
+							<a href="theme.php">
+								<img src="img/mascot.png" />
+							</a>
 						</div>
 					</div>
 					<div class="col-sm-8">
@@ -227,12 +235,12 @@
 					<figure class="effect-zoe">
 						<div class="speaker-info">
 							<p>
-								Ms. Alisha Abdullah has the unique distinction of being the only woman super bike racer in India and the fastest Indian car racer.<br><br>Ms. Abdullah has been fascinated by racing since she was a kid. When she was just 13-years-old, she won the MRF National Go-Karting Championship and the Best Novice Award in the National level Formula Car Racing in the open class.<br><br>Ms. Abdullah then moved on to formula car racing and ranked fifth in the JK Tyre National Championship, 2004. She made the switch from four wheelers to bikes in the same year.<br><br>She recently started the 'Alisha Abdullah Racing Academy for Women'.<br><br>
+								Ms. Allisha Abdullah has the unique distinction of being the only woman super bike racer in India and the fastest Indian car racer.<br><br>Ms. Abdullah has been fascinated by racing since she was a kid. When she was just 13-years-old, she won the MRF National Go-Karting Championship and the Best Novice Award in the National level Formula Car Racing in the open class.<br><br>Ms. Abdullah then moved on to formula car racing and ranked fifth in the JK Tyre National Championship, 2004. She made the switch from four wheelers to bikes in the same year.<br><br>She recently started the 'Alisha Abdullah Racing Academy for Women'.<br><br>
 							</p>
 						</div>
 						<img src="img/alisha.jpg" alt="img26"/>
 						<figcaption>
-							<h2>Alisha <span>Abdullah</span></h2>
+							<h2>Allisha <span>Abdullah</span></h2>
 							<p class="description">PIONEER OF FEMALE CAR AND BIKE RACING IN INDIA AND THE WORLD</p>
 							<a class="youtube-link" href="https://www.youtube.com/embed/-0UPRn7NvNg"></a>
 						</figcaption>	
@@ -343,7 +351,7 @@
 						<img src="img/archy.jpg" alt="img26"/>
 						<figcaption>
 							<h2>Archy <span>Jay</span></h2>
-							<p class="description">MUSICIAN, BAGPIPER</p>
+							<p class="description">India's first bagpipe artist</p>
 							<a class="youtube-link" href="http://www.youtube.com/embed/RekJ_HQDCIM"></a>
 						</figcaption>			
 					</figure>
@@ -370,7 +378,7 @@
 					<figure class="effect-zoe">
 						<div class="speaker-info">
 							<p>
-							Mr. Sanjay Modi is the Managing Director of monster.com in India, Middle East, Hong Kong and South-East Asia.<br><br>An alumnus of Delhi College of Engineering and Institute of Management Technology, Ghaziabad, Mr.Modi has set a remarkable example for engineers who aspire to make the transition from technology to management.<br><br>His entrepreneurial approach and deep understanding of the business nuances has helped Monster India to expand in rural markets by conceptualizing rozgarduniya.com and ITC e Choupal which have been acknowledged by the prestigious Business Call to Action.<br><br>
+							Mr. Sanjay Modi is the Managing Director of monster.com in India, Middle East, Hong Kong and South-East Asia.<br><br>An alumnus of Delhi College of Engineering and Institute of Management Technology, Ghaziabad, Mr. Modi has set a remarkable example for engineers who aspire to make the transition from technology to management.<br><br>His entrepreneurial approach and deep understanding of the business nuances has helped Monster India to expand in rural markets by conceptualizing rozgarduniya.com and ITC E-Choupal which have been acknowledged by the prestigious Business Call to Action.<br><br>
 							</p>
 						</div>
 						<img src="img/s-modi.jpg" alt="img26"/>
@@ -396,7 +404,7 @@
 						<figcaption>
 							<h2>Kiran <span>Bedi</span></h2>
 							<p class="description">EX-IPS OFFICER, SOCIAL ACTIVISTS, FORMER TENNIS PLAYER AND POLITICIAN</p>
-							<a class="youtube-link" href="http://www.youtube.com/embed/g_CSsL3it9Y"></a>
+							<!-- <a class="youtube-link" href="http://www.youtube.com/embed/g_CSsL3it9Y"></a> -->
 						</figcaption>	
 					</figure>
 				</div>
@@ -404,7 +412,7 @@
 					<figure class="effect-zoe">
 						<div class="speaker-info">
 							<p>
-								Nitin Gupta is a famous Indian stand up comedian who is an IITian. He is a chemical engineer by education. Nitin Gupta says that it is not a simple task to make people laugh. While chatting on a message, to write LOL or ROFL is very easy but making people do that in real is very difficult. It is not as simple as it seems to be. He says that he is also the founder and the CEO (Chief Entertainment Engineer) for a stand up comedy and a Theater company. He is a literally an entertaining guy and people enjoy his company. He also believes that comedy comprises of both art and science and not everyone can do it. Nitin’s parents were concerned when he told them about his career switch and they weren’t sure if what he is doing is right. But he still chose the path and made sure to make them proud. Nitin believes that humor is the point of view and you can be very honest with it. it can break the daily nuances make you think a little more about the conditioning that you have been brought up in. It is the reason gone mad, you don’t really need a reason to have humor in life. It is just there.<br><br>Nitin Gupta is an IITian turned Standup comedian who wants to take the Stand up Comedy to a different level in the country. He is hard working and he knows how to make people laugh. He is also the founder of the Entertainment engineers, because for him comedy is an art. He aims at making Stand up comedy respectable in India and making it mainstreams. He made his first public stand up comedy in the year 2009, in front his friends in his college. The first comedy of Entertainment Engineers brake was in MNIT Jaipur. Since then the group has performed in various concerts in IIT, IIM, Fortune 500, TED Talks and many other events. It is one of the most famous group and people love the humor. The Team currently has ten members and they have performed in various big events.<br><br>
+								Nitin Gupta is a famous Indian stand up comedian who is an IITian. He is a chemical engineer by education. Nitin Gupta says that it is not a simple task to make people laugh. While chatting on a message, to write LOL or ROFL is very easy but making people do that in real is very difficult. It is not as simple as it seems to be. He says that he is also the founder and the CEO (Chief Entertainment Engineer) for a stand up comedy and a Theater company. He is a literally an entertaining guy and people enjoy his company. He also believes that comedy comprises of both art and science and not everyone can do it. Nitin’s parents were concerned when he told them about his career switch and they weren’t sure if what he is doing is right. But he still chose the path and made sure to make them proud. Nitin believes that humor is the point of view and you can be very honest with it. it can break the daily nuances make you think a little more about the conditioning that you have been brought up in. It is the reason gone mad, you don’t really need a reason to have humor in life. It is just there.<br><br>
 							</p>
 						</div>
 						<img src="img/nitin.jpg" alt="img26"/>
@@ -420,7 +428,7 @@
 						<div class="speaker-info">
 							<p>
 							Durjoy Datta is an Indian novelist, screenwriter and entrepreneur. He believes that life isn’t all about a written pattern. He has persuaded the youth to think different and to not follow what everyone does but to live their own dreams. <br><br>
-							His first novel ‘Ofcourse I love you!) co-authored by Maanvi Ahuja was released in 2008 while he was still in college. After graduating as a mechanical engineer from Delhi Technological University, Datta worked for Siemens before pursuing his postgraduate degree from Management Development Institute. <br><br>
+							His first novel 'Of course, I love you!'' co-authored by Maanvi Ahuja was released in 2008 while he was still in college. After graduating as a mechanical engineer from Delhi Technological University, Datta worked for Siemens before pursuing his postgraduate degree from Management Development Institute. <br><br>
 							He has several popular shows to his credit. In 2011, he co-founded the publishing house Grapevine India. In 2009, he was recognized as the young achiever by the Times of India. He was also chosen as one of the two young achievers in the field of Media and Communications by Whistling Woods International in 2011.<br><br>
 						</p>
 						</div>
@@ -428,7 +436,7 @@
 						<figcaption>
 							<h2>Durjoy <span>Dutta</span></h2>
 							<p class="description">NOVELIST, SCREENWRITER AND ENTREPRENEUR</p>
-							<a class="youtube-link" href="http://www.youtube.com/embed/Pbh-B6YVEf8"></a>
+							<!-- <a class="youtube-link" href="http://www.youtube.com/embed/Pbh-B6YVEf8"></a> -->
 						</figcaption>			
 					</figure>
 				</div>
@@ -443,7 +451,7 @@
 						<figcaption>
 							<h2>MEHER <span>MALIK</span></h2>
 							<p class="description">DANCER</p>
-							<a class="youtube-link" href=""></a>
+							<!-- <a class="youtube-link" href="http://www.youtube.com/embed/QPxs_GomHMU"></a> -->
 						</figcaption>			
 					</figure>
 				</div>
@@ -477,7 +485,7 @@
 						<figcaption>
 							<h2>Kanth <span>Risa</span></h2>
 							<p class="description">ARTIST</p>
-							<a class="youtube-link" href="http://www.youtube.com/embed/zmcb9FOI9Fg"></a>
+							<!-- <a class="youtube-link" href="http://www.youtube.com/embed/zmcb9FOI9Fg"></a> -->
 						</figcaption>			
 					</figure>
 				</div>
@@ -602,7 +610,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="announcements">
-							<h1>Sponsors to be announced soon.</h1>
+							<h1>Partners to be announced soon.</h1>
 							<h3>If interested, mail us at <a href="mailto:partnership@tedxdtu.in" style="color:#b4cee8">partnership@tedxdtu.in</a>.</h3>
 						</div>
 						<!-- <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
@@ -653,10 +661,10 @@
 		                </a>
 		            </div>
 		            <div class="social-footer-block col-xs-12 col-md-3">
-		                <p><strong>Address</strong><br>Delhi Technological University, Shahbad Daulatpur, Main Bawana Road Delhi, 110042<br>(Nearest Metro Station - Samaypur Badli)</p>
+		                <p><strong>Address</strong><br>Delhi Technological University, Shahbad Daulatpur, Main Bawana Road Delhi, 110042<br>Nearest Metro Station -<br /> Samaypur Badli</p>
 		            </div>
 		            <div class="social-footer-block col-xs-12 col-md-3">
-						<p><strong>Contact Us</strong><br>Email: contact@tedxdtu.in<br>Phone: +91 8586096079<br> +91 8373920868<br></p>
+						<p><strong>Contact us</strong><br>Email: contact@tedxdtu.in<br>Phone: +91 8586096079<br> +91 8373920868<br></p>
 		            </div>
 		            <div class=" col-xs-12 col-md-4">
 	                	<div class="social-icons">
@@ -709,9 +717,10 @@
 		        </div>
 		    </div>
 		</section>
+		<div class="arrow-up"> </div>
 		<footer class="footer">
 		    <div class="container">
-		        <p>This independent TEDx event is operated under license from TED. Copyright © TEDxDTU 2017. All Rights reserved. <br><br>Designed by <a href="https://github.com/vanshraj/">Vanshaj Behl</a> and Developed by <a href="https://github.com/ciplpj">Ankit Jain.</a></p>
+		        <p>This independent TEDx event is operated under license from TED. Copyright © TEDxDTU 2017. All rights reserved. <br><br>Designed by <a href="https://github.com/vanshraj/">Vanshaj Behl</a> and Developed by <a href="https://github.com/ciplpj">Ankit Jain.</a></p>
 		    </div>
 		</footer>
 

@@ -5,6 +5,11 @@
         }
     window.onload = codeAddress;
 
+    $(".navbar-toggle").click(function(){
+            var nav = $('.navbar-collapse');
+            nav.toggleClass("navbar-bg-add");
+        });
+
     $('a[href^="#"]').click(function(){
 
 var the_id = $(this).attr("href");
