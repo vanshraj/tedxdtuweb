@@ -116,7 +116,7 @@
 					<div id="large-header" class="large-header">
 						<canvas id="demo-canvas"></canvas>
 						<a target="_blank" href="http://www.ted.com/tedx/events/20506">
-							<h1 class="main-title">TED<span class="ted_x">x</span><span class="thin">DTU<br><span id="small"><span style="color:#e62b1e; font-weight:900;">x</span> = independently organized TED event</span></span></h1>
+							<h1 class="main-title">TED<span class="ted_x">x</span><span class="thin"><span style="font-weight:500;">DTU<br /><br><span id="small"><span style="color:#e62b1e; font-weight:900;">x</span> = independently organized TED event</span></span></h1>
 						</a>
 						<a href="#about" data-start="display: block" data-100-start="display: none" class="btn-scroll-down scroll skrollable skrollable-between" style="display: block;"></a>
 						<div class="detail_container">
