@@ -275,6 +275,24 @@
 						</figcaption>	
 					</figure>
 				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<figure class="demo-effect-zoe">
+						<!-- <img src="img/red-hands.jpg" alt="img26"/> -->
+						<figcaption>
+							<h2>Mohit Singh <span>Dalawat  </span></h2>
+							<p class="description">Logistics Manager</p>
+						</figcaption>	
+					</figure>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<figure class="demo-effect-zoe">
+						<!-- <img src="img/red-hands.jpg" alt="img26"/> -->
+						<figcaption>
+							<h2>Anaadi <span>Jain  </span></h2>
+							<p class="description">Travel and tourism Manager</p>
+						</figcaption>	
+					</figure>
+				</div>
 			</div>
 			</div>
 		</section>
