@@ -245,12 +245,12 @@
 					<figure class="effect-zoe">
 						<div class="speaker-info">
 							<p>
-								Ms. Allisha Abdullah has the unique distinction of being the only woman super bike racer in India and the fastest Indian car racer.<br><br>Ms. Abdullah has been fascinated by racing since she was a kid. When she was just 13-years-old, she won the MRF National Go-Karting Championship and the Best Novice Award in the National level Formula Car Racing in the open class.<br><br>Ms. Abdullah then moved on to formula car racing and ranked fifth in the JK Tyre National Championship, 2004. She made the switch from four wheelers to bikes in the same year.<br><br>She recently started the 'Alisha Abdullah Racing Academy for Women'.<br><br>
+								Ms. Alisha Abdullah has the unique distinction of being the only woman super bike racer in India and the fastest Indian car racer.<br><br>Ms. Abdullah has been fascinated by racing since she was a kid. When she was just 13-years-old, she won the MRF National Go-Karting Championship and the Best Novice Award in the National level Formula Car Racing in the open class.<br><br>Ms. Abdullah then moved on to formula car racing and ranked fifth in the JK Tyre National Championship, 2004. She made the switch from four wheelers to bikes in the same year.<br><br>She recently started the 'Alisha Abdullah Racing Academy for Women'.<br><br>
 							</p>
 						</div>
 						<img src="img/alisha.jpg" alt="img26"/>
 						<figcaption>
-							<h2>Allisha <span>Abdullah</span></h2>
+							<h2>Alisha <span>Abdullah</span></h2>
 							<p class="description">PIONEER OF FEMALE CAR AND BIKE RACING IN INDIA AND THE WORLD</p>
 							<a class="youtube-link" href="https://www.youtube.com/embed/-0UPRn7NvNg"></a>
 						</figcaption>	
