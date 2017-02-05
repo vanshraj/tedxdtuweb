@@ -450,8 +450,10 @@ section{
 }
 
 .about-card img{
-  margin-top: 8%;
+  margin-top: 35%;
   margin-left: -28%;
+  background-color: white; 
+  max-width: 100%;
 }
 .inspire{
   position: absolute;

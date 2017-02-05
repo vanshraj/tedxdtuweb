@@ -35,7 +35,7 @@
 			<div class="row">
 				<div class="col-md-2 col-md-offset-1 text-center">
 					<p><a href="http://theme.tedxdtu.in">
-						<img src="img/mascot.png"/>
+						<img id="mascot" src="img/mascot.png" />
 					</a></p>
 				</div>
 				<div class="col-md-7 col-md-offset-1">
