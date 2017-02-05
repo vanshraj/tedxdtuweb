@@ -9,29 +9,30 @@
 body {
   color: #303030;
   font-family: 'Source Sans Pro';
-  background: radial-gradient(circle, #ffffff, #dddddd);
+  background: radial-gradient(circle, #f05c5c, #850000);
+  overflow: hidden;
 }
 
 .container {
   max-width: 325px;
   background-color: #fff;
   margin: 30px auto 0;
-  max-height: 600px;
-  overflow: hidden;
-  box-shadow: 0 0 40px #b0b0b0;
+  /*max-height: 600px;*/
+  box-shadow: 0 12px 40px #000;
 }
-
+.header{
+  height: 100px;
+}
 
 .header img {
   width: 100%;
-  border-radius: 0 0 10px 10px;
 }
 .logo{
-    position: absolute;
+      position: relative;
     margin-left: 50%;
-    top: 64px;
+    top: -64px;
     left: -75px;
-    width:150px;
+    width: 150px;
   }
   .logo img{
     width: 150px;
@@ -75,6 +76,7 @@ body {
 ul {
   padding: 0;
   margin: 1em 0 0;
+  list-style: none;
 }
 ul li {
   padding: 15px 0 15px 25%;
@@ -155,6 +157,20 @@ ul li p {
   left: 15%;
   top: 20px;
 }
+.dot_red {
+  position: relative;
+}
+
+.dot_red::after {
+  content: ' ';
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+  left: 15%;
+  top: 20px;
+}
 
 .credits, .video {
   position: absolute;
@@ -170,4 +186,57 @@ ul li p {
 
 .video {
   right: 10px;
+}
+#view_profile{
+  cursor: pointer;
+}
+.profile{
+  padding:15px 0 15px 0;
+  display: none;
+  background-color: #eee;
+  box-shadow:inset 0 2px 14px #bbb;
+}
+.profile_card h2{
+  text-align: center;
+}
+.profile_card{
+  width: 100%;
+  padding:15px 0 15px 0;
+  background-color: #fff;
+}
+.profile_card h3,.profile_card h2{
+   font-family: roboto;
+    font-weight: 400;
+    color: #383838;
+}
+.profile_card span{
+  color: #888;
+}
+.profile_card h3, .profile_card span{
+  margin:0px 10px ;
+  line-height: 25px;
+}
+.profile_container{
+
+  max-height: 200px;
+  overflow: scroll;
+}
+.profile_container ::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #fff;
+  opacity:0.5;
+}
+
+.profile_container::-webkit-scrollbar
+{
+  width: 4px;
+  background-color: #fff;
+  opacity:0.5;
+}
+
+.profile_container::-webkit-scrollbar-thumb
+{
+  background-color: #e62b1e;
+  opacity: 0.5;
 }
