@@ -1,11 +1,18 @@
 .login{
 	cursor: pointer;
 }
-
-.new_account{
-	display: none;
+.sign-in{
+  float: right;
+  display: none;
 }
-.sign-in, .new_account{
+
+.forgot_password{
+  float: right;
+}
+.new_account{
+  float: left;
+}
+.forgot_password, .new_account,.sign-in{
 	font-size: 14px;
   cursor: pointer;
 }
@@ -152,4 +159,10 @@
 }
 .button-gp:hover {
   background-color: #d73925;
+}
+.send_password{
+  display: none;
+}
+.send_password,.login_button{
+  text-align: center;
 }

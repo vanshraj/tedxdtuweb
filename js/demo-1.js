@@ -228,23 +228,24 @@ var the_id = $(this).attr("href");
     return false;});
 
 //login signup 
-
-$('.new_account').click(function(){
-    $('.mobile_no').css('display','inline');
+$('.forgot_password').click(function(){
+    $('.user_password').css('display','none');
+    $('.send_password').css('display','block');
+    $('.login_button').css('display','none');
+    $('.forgot_password').css('display','none');
     $('.sign-in').css('display','inline-block');
     $('.new_account').css('display','none');
-    $('.loginmodal-container h1').text('SignUp With Your Social Account');
+    $('.loginmodal-container h1').text('New password will be sent to your email.');
 });
 $('.sign-in').click(function(){
-    $('.mobile_no').css('display','none');
+    $('.send_password').css('display','none');
+    $('.login_button').css('display','block');
+    $('.user_password').css('display','block');
+    $('.forgot_password').css('display','inline-block');
     $('.sign-in').css('display','none');
     $('.new_account').css('display','inline-block');
-    $('.loginmodal-container h1').text('Login to Your Account');
+    $('.loginmodal-container h1').text('Login to Your Account.');
 });
-
-
-
-
 
 //overlay of speakers
 

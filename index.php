@@ -59,7 +59,7 @@
 			        <li><a target="_blank" href="team.php">Team</a></li>
 			      </ul>
 			      <ul class="nav navbar-nav navbar-right">
-			        <!-- <li><a data-toggle="modal" data-target="#login-modal" class="login">Login/SignUp</a></li> -->
+			        <li><a data-toggle="modal" data-target="#login-modal" class="login">Login/Register</a></li>
 			      </ul>
 			    </div>
 			  </div>
@@ -73,15 +73,21 @@
     	  <div class="modal-dialog">
 				<div class="loginmodal-container">
 					<div class="login-logo"><img src="./img/logo.png"></div><br>
-					<h1>SignUp With Your Social Account</h1><br>
+					<h1>Login to Your Account</h1><br>
 				  <form>
-					<div class="mobile_no"><input type="tel" required name="mobile" placeholder="Mobile Number"></div><hr>
-					<button class="social-login button-fb" href="#"><i class="icon fa fa-facebook"></i>Login With Facebook</button><p>OR</p>
-					<button class="social-login button-gp" href="#"><i class="icon fa fa-google"></i>Login With Google</button>
+					<div class="user_email"><input type="email" required name="email" placeholder="Email"></div><br>
+					<div class="user_password"><input type="password" required name="password" placeholder="Password"></div><br>
+					<button class="social-login button-gp login_button" href="#">Login</button>
+					<button class="social-login button-fb send_password" href="#">Send Password</button>
+					<!-- <button class="social-login button-fb" href="#"><i class="icon fa fa-facebook"></i>Login With Facebook</button><p>OR</p>
+					<button class="social-login button-gp" href="#"><i class="icon fa fa-google"></i>Login With Google</button> -->
 				  </form>
 					
 				  <div class="new_account">
-					<a href="#">Don't have an account?</a>
+					<a href="registration.php">Don't have an account?</a>
+				  </div>
+				  <div class="forgot_password">
+					<a>Forgot Password?</a>
 				  </div>
 				  <div class="sign-in">
 					<a>Already have an account?</a>
@@ -227,6 +233,7 @@
 				<h1>Speakers to be announced soon.</h1>
 				<a href="nomination.php" target="_blank"><button  type="button" class="btn btn-default btn-lg">Nominate a Speaker</button></a>
 				<a href="application.php" target="_blank"><button  type="button" class="btn btn-default btn-lg">Apply for Speaker</button></a>
+				<a href="application.php" target="_blank"><button  type="button" class="btn btn-default btn-lg">Register for TEDxDTU2017</button></a>
 			</div>
 		</section>
 
