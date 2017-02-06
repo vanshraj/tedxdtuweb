@@ -50,7 +50,7 @@ body {
 .about span {
   font-size: 0.8em;
   color: #aaa;
-  line-height: 1;
+  line-height: 25px;
   font-weight: 300;
   padding-right: 50%;
 }
@@ -187,10 +187,44 @@ ul li p {
 .video {
   right: 10px;
 }
-#view_profile{
+
+#view_profile, #view_reset{
   cursor: pointer;
 }
-.profile{
+.old_password input,.new_password input{
+    border-radius: 5px;
+    height: 34px;
+    font-size: 14px;
+    width: 70%;
+    /* margin-bottom: 10px; */
+    color: #555;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    /* border-radius: 2px; */
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.reset_button{
+    width: 70%;
+    border: 1px solid #c23321;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    height: 34px;
+    position: relative;
+    text-align: center;
+    background-color: #e62b1e;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
+}
+.reset_button:hover{
+  background-color: #c6271c;
+}
+.profile, .reset{
   padding:15px 0 15px 0;
   display: none;
   background-color: #eee;
@@ -199,10 +233,13 @@ ul li p {
 .profile_card h2{
   text-align: center;
 }
-.profile_card{
+.profile_card, .reset_card{
   width: 100%;
   padding:15px 0 15px 0;
   background-color: #fff;
+}
+.reset_card{
+  text-align: center;
 }
 .profile_card h3,.profile_card h2{
    font-family: roboto;
