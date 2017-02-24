@@ -229,11 +229,54 @@
 		</section>
 
 		<section id="speakers">	
-			<div class="announcements">
-				<h1>Speakers to be announced soon.</h1>
-				<a href="nomination.php" target="_blank"><button  type="button" class="btn btn-default btn-lg">Nominate a Speaker</button></a>
-				<a href="application.php" target="_blank"><button  type="button" class="btn btn-default btn-lg">Apply for Speaker</button></a>
-				<a href="application.php" target="_blank"><button  type="button" class="btn btn-default btn-lg">Register for TEDxDTU2017</button></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4"><h1 class="speakers-title">Speakers</h1></div>
+				</div>
+			<div class="row speakers">
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<figure class="effect-zoe">
+						<div class="speaker-info">
+							<p>
+								“We do not inherit the Earth from our ancestors, we borrow it from our children. ”<br><br>Renowned ecologist, academic, writer and columnist, Dr. Madhav Gadgil’s landmark report on the preservation of the unique ecosystem of the Western Ghats and the inclusion of local committees was integral in positioning him as a leading voice on environmental issues in India. As a fellow of reputed institutions like INSA and NASI and a recipient of the Harvard Centennial Medal from his alma mater, Dr. Gadgil has been an exemplary visionary in his field.<br><br> Dr. Gadgil is a former member of the Scientific Advisory Council to the Prime Minister of India and the Head of the Western Ghats Ecology Expert Panel (WGEEP) of 2010, which is popularly known as the Gadgil Commission. He is a recipient of the Volvo Environment Prize and the Tyler Prize for Environmental Achievement, making him the only Indian to win it after M.S. Swaminathan. The Government of India awarded him the Padma Shri in 1981 and subsequently conferred on him the Padma Bhushan in 2006.<br><br>
+							</p>
+						</div>
+						<img src="img/madhav.jpg" alt="img26"/>
+						<figcaption>
+							<h2>Madhav <span>Gadgil</span></h2>
+							<p class="description">Renowned ecologist, academic, writer and columnist</p>
+						</figcaption>	
+					</figure>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<figure class="effect-zoe">
+						<div class="speaker-info">
+							<p>
+								"Strength does not come from physical capacity. It comes from an indomitable spirit."<br><br>Ms. Laxmi Agarwal was a jovial 7th grade student when she was attacked with an acid in 2005. Her courage helped her to survive the attack but her scars reminded her of that horrific incident. However, she refused to accept her fate and embarked on a journey of emancipation. Since then, from receiving an award from Former First Lady Michelle Obama to have anchored television shows, she has tasted her well deserved share of accomplishments. Ms. Laxmi led a petition that compelled the Supreme Court to regulate the sale of acid and to make prosecution of attacks easier to pursue.<br><br>Ms. Laxmi is now the director of Chhanv Foundation and continues to rehabilitate, council and fight for the rights of acid attack victims. She was also named 'Indian of the Year’ by NDTV.<br><br>
+							</p>
+						</div>
+						<img src="img/laxmi.jpg" alt="img26"/>
+						<figcaption>
+							<h2>Laxmi <span>Agarwal</span></h2>
+							<p class="description">Director of Chhanv Foundation</p>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<figure class="effect-zoe">
+						<div class="speaker-info">
+							<p>
+								“Nobody imagined this. I think the world has completely changed because of solar. Solar is disruptive and a game-changer.”<br><br>He serves as the Managing Director of Finnish-based energy company Fortum, overseeing their Indian endeavours. Together, they are working to reinvent the landscape of renewable energy in India.<br><br>He also worked for Tata Power, Wartsila, ABB and Thermax. He served as a Director of Industrial Energy Limited until February 2014. He is an alumnus of Delhi College of Engineering (DCE).<br><br>
+							</p>
+						</div>
+						<img src="img/sanjay.jpg" alt="img26"/>
+						<figcaption>
+							<h2>Sanjay <span>Aggarwal</span></h2>
+							<p class="description">Managing Director of Finnish-based energy company Fortum</p>
+						</figcaption>			
+					</figure>
+				</div>
+			</div>
 			</div>
 		</section>
 
