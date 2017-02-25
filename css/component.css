@@ -114,7 +114,7 @@ p.ref {
 	padding: 0;
 	color:#e62b1e;
 	text-align: center;
-	top: 50%;
+	top: 46%;
 	left: 50%;
 	opacity:0;
 	transform: translate3d(-50%,-50%,0);
@@ -978,4 +978,10 @@ section{
     border-left: 2px solid red;
     top: 18px;
     right: 13px;
+}
+.register-btn{
+  background-color: #e62b1e;
+  position: absolute;
+  top: 60%;
+  left:50%;
 }
