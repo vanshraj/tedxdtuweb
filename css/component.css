@@ -980,8 +980,59 @@ section{
     right: 13px;
 }
 .register-btn{
-  background-color: #e62b1e;
+  background-color: rgba(0, 0, 0, 0);
   position: absolute;
   top: 60%;
-  left:50%;
+  left: 50%;
+  margin-left: -79px;
+  border: 4px solid #e62b1e;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+}
+#grey_matters{
+  font-size: 30px;
+}
+@media only screen and (max-width: 780px){
+  #grey_matters{
+    font-size: 25px;
+  }
+  .main-title {
+    top: 49%;}
+}
+@media only screen and (max-width: 420px){
+  #grey_matters{
+    font-size: 18px;
+  }
+  .register-btn{
+    margin-left: -46px;
+  }
+  .main-title {
+    top: 48%;}
+}
+
+/* Pulse */
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.register-btn:hover, .register-btn:focus, .register-btn:active {
+  -webkit-animation: hvr-pulse 1s linear 0s infinite;
+  animation: hvr-pulse 1s linear 0s infinite;
 }
