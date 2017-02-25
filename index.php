@@ -134,7 +134,7 @@
 						<a target="_blank" href="http://www.ted.com/tedx/events/20506">
 							<h1 class="main-title">TED<span class="ted_x">x</span><span class="thin"><span style="font-weight:500;">DTU<br /><br><span id="small"><span style="color:#e62b1e; font-weight:900;">x</span> = independently organized TED event</span></span><br /><span id="small">Because Grey Matters</span></h1>
 						</a>
-						<button class=" fade-in one btn btn-danger btn-sm register-btn" href="/register">Register Here!</button>
+						<a href="/register"><button class=" fade-in one btn btn-danger btn-sm register-btn" >Register Here!</button></a>
 						<a href="#about" data-start="display: block" data-100-start="display: none" class="btn-scroll-down scroll skrollable skrollable-between" style="display: block;"></a>
 						<div class="detail_container">
 							<div class="ted_detail left">
