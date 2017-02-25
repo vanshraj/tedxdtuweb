@@ -235,6 +235,7 @@
 					<div class="col-md-4 col-md-offset-4"><h1 class="speakers-title">Speakers</h1></div>
 				</div>
 			<div class="row speakers">
+				<div class="row"><div class="col-md-4 col-md-offset-4"><h3 class="year-title">2017</h3></div></div>
 				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 					<figure class="effect-zoe">
 						<div class="speaker-info">
@@ -274,6 +275,20 @@
 						<figcaption>
 							<h2>Sanjay <span>Aggarwal</span></h2>
 							<p class="description">Managing Director of Finnish-based energy company Fortum</p>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<figure class="effect-zoe">
+						<div class="speaker-info">
+							<p>
+								Ms. Monica Dogra is a singer and one half of the Mumbai based electronic duo Shaa'ir and Func. <br><br>She made her Bollywood acting debut with the film Dhobhi Ghat (2011).<br><br>She has made a guest appearance in the movie Rock On!<br><br>In December 2011, she served as a judge for Rolling Stone's "Never Hide Sounds" musical talent contest. <br><br>She is the host of The Dewarists.<br><br>Ms. Dogra has also featured on the covers of Maxim and FHM magazine.<br><br>Currently, she is one of the judges for the show The Stage.<br><br>She was nominated by VH1 at the 2015 Europe Music Awards under the Best India Act category, which falls under the Worldwide Act category.<br><br>Her international docu-series, Woman With Gloria Steinem (based on gender-related violence), was nominated in the Outstanding Documentary or Non-Fiction Series category at 68th Emmy Awards.<br><br>
+							</p>
+						</div>
+						<img src="img/monica.jpg" alt="img26"/>
+						<figcaption>
+							<h2>Monica <span>Dogra</span></h2>
+							<p class="description">Singer, Actress,  Judge of the show The Stage</p>
 						</figcaption>			
 					</figure>
 				</div>
