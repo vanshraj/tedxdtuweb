@@ -990,11 +990,13 @@ section{
   transform: perspective(1px) translateZ(0);
 }
 #grey_matters{
+  line-height: 70px;
   font-size: 30px;
 }
 @media only screen and (max-width: 780px){
   #grey_matters{
     font-size: 25px;
+    line-height: 50px;
   }
   .main-title {
     top: 49%;}
