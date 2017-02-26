@@ -749,6 +749,11 @@
 							<h4>Media Partner</h4><br>
 							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/college-desk.png" alt="img26"/></div></div></a>
 						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<a href="http://collegedesk.in/">
+							<h4>Media Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/my-dala.png" alt="img26"/></div></div></a>
+						</div>
 					</div>
 				</div>
 		</section>
