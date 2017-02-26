@@ -665,23 +665,35 @@ section{
 }
 
 #sponsors{
+  /*background-color: white;
+  color: #090909;*/
     padding-top: 10%;
     text-align: center;
     padding-bottom: 10%;
 }
 #sponsors img{
-  width:240px;
-  height: 100px;
+  max-width:220px;
+  max-height: 100px;
   border-radius:8px; 
   /*border:#e62b1e solid 2px;*/
-  -webkit-filter:invert(100%) grayscale(100%) ;  
-    filter: invert(100%) grayscale(100%) ;
+  -webkit-filter: grayscale(100%) ;  
+    filter:  grayscale(100%) ;
   transition: all 0.3s ease-in-out;
 }
 
-
+.sponsors-box-box{
+  display: table;
+  margin:0 auto;
+  margin-bottom: 40px;
+}
 .sponsors-box{
-  padding: 15px;
+  background-color: white;
+  width: 240px;
+  height: 130px;
+  border-radius: 20px;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
 }
 
 #sponsors img:hover{
@@ -698,10 +710,16 @@ section{
   padding-bottom: 10px;
   border-bottom: #E62B1e 0.5px solid;
 }
+#sponsors h4{
+  float: none;
+  display: inline-flex;
+  padding-bottom: 10px;
+  border-bottom: #E62B1e 0.5px solid;
+}
 
-@-webkit-keyframes blurryface { 0%{ -webkit-filter:invert(100%) grayscale(100%);} 50% { -webkit-filter:invert(0%) grayscale(50%) blur(3px);} 100% { -webkit-filter:invert(0%) grayscale(0%); } }
-@-moz-keyframes blurryface { 0%{ -moz-filter:invert(100%) grayscale(100%);} 50% { -moz-filter:invert(0%) grayscale(50%) blur(3px); } 100% { -moz-filter:invert(0%) grayscale(0%); } }
-@keyframes blurryface { 0%{ filter: invert(100%) grayscale(100%); } 50% { filter:invert(0%) grayscale(50%) blur(3px); } 100% { filter:invert(0%) grayscale(0%); } }
+@-webkit-keyframes blurryface { 0%{ -webkit-filter: grayscale(100%);} 50% { -webkit-filter: grayscale(50%) blur(3px);} 100% { -webkit-filter: grayscale(0%); } }
+@-moz-keyframes blurryface { 0%{ -moz-filter: grayscale(100%);} 50% { -moz-filter: grayscale(50%) blur(3px); } 100% { -moz-filter: grayscale(0%); } }
+@keyframes blurryface { 0%{ filter:  grayscale(100%); } 50% { filter: grayscale(50%) blur(3px); } 100% { filter: grayscale(0%); } }
 
 .toggle-body{
   background-color: white;
@@ -1000,17 +1018,25 @@ section{
     line-height: 50px;
   }
   .main-title {
-    top: 49%;}
+    top: 49%;
+  }
+    #sponsors h4{
+    font-size: 16px; 
+  }
 }
 @media only screen and (max-width: 420px){
   #grey_matters{
-    font-size: 18px;
+    font-size: 16px;
   }
   .register-btn{
     margin-left: -46px;
   }
   .main-title {
-    top: 48%;}
+    top: 48%;
+  }
+    #sponsors h4{
+    font-size: 14px; 
+  }
 }
 
 /* Pulse */

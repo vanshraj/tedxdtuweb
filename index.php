@@ -686,33 +686,57 @@
 				<div class="row">
 					<div class="container">
 						<div class="announcements">
-							<h1>Partners to be announced soon.</h1>
-							<h3>If interested, mail us at <a href="mailto:partnership@tedxdtu.in" style="color:#b4cee8">partnership@tedxdtu.in</a>.</h3>
-						</div>
-						<!-- <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<div class="sponsors-box"><img src="img/DU-beat.jpg" alt="img26"/></div>
+							<h1>Partners</h1>
+							<!-- <h3>If interested, mail us at <a href="mailto:partnership@tedxdtu.in" style="color:#b4cee8">partnership@tedxdtu.in</a>.</h3><br> -->
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<div class="sponsors-box"><img src="img/Radio-one-94.3.jpg" alt="img26"/></div>
+							<h4>Learning Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/campus-commune.png" alt="img26"/></div></div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<div class="sponsors-box"><img src="img/Statesman.jpg" alt="img26"/></div>
+							<h4>Title Media Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/indian-express.png" alt="img26"/></div></div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<div class="sponsors-box"><img src="img/Statesman.jpg" alt="img26"/></div>
+							<h4>Campus Publicity Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/education-tree.png" alt="img26"/></div></div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<div class="sponsors-box"><img src="img/DU-beat.jpg" alt="img26"/></div>
+							<h4>Event Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/partiko.png" alt="img26"/></div></div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<div class="sponsors-box"><img src="img/Radio-one-94.3.jpg" alt="img26"/></div>
+							<h4>Learning Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/tcs.png" alt="img26"/></div></div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<div class="sponsors-box"><img src="img/Statesman.jpg" alt="img26"/></div>
+							<h4>Media Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/humans-delhi.png" alt="img26"/></div></div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<div class="sponsors-box"><img src="img/Statesman.jpg" alt="img26"/></div>
-						</div> -->
+							<h4>Media Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/campus-drift.png" alt="img26"/></div></div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<h4>Media Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/du-updates.png" alt="img26"/></div></div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<h4>Media Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/urban-asian.png" alt="img26"/></div></div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<h4>Media Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/du-express.png" alt="img26"/></div></div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<h4>Media Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/college-media.png" alt="img26"/></div></div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<h4>Media Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/college-desk.png" alt="img26"/></div></div>
+						</div>
 					</div>
 				</div>
 		</section>
