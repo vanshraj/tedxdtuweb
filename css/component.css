@@ -1012,6 +1012,10 @@ section{
   line-height: 70px;
   font-size: 30px;
 }
+#sponsors a{
+  color: white;
+  text-decoration: none;
+}
 @media only screen and (max-width: 780px){
   #grey_matters{
     font-size: 25px;
