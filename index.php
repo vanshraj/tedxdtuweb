@@ -676,22 +676,22 @@
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="https://aireon.com/">
 							<h4>Event Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/Aireon.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/Aireon.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="https://campuscommune.tcs.com/en-in/intro">
 							<h4>Learning Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/campus-commune.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/campus-commune.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://www.tcs.com/Pages/default.aspx">
 							<h4>Learning Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/tcs.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/tcs.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://www.tcs.com/Pages/default.aspx">
 							<h4>Learning Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/sangam.jpg" alt="img27"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/sangam.jpg" alt="img27"/></div></div></a>
 						</div>
 					</div>
 				</div>
@@ -703,57 +703,57 @@
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://indianexpress.com/">
 							<h4>Title Media Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/indian-express.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/indian-express.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://www.theeducationtree.com/">
 							<h4>Campus Publicity Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/education-tree.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/education-tree.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="https://www.partiko.com/">
 							<h4>Event Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/partiko.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/partiko.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="https://www.facebook.com/humansofdelhi">
 							<h4>Media Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/humans-delhi.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/humans-delhi.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://campusdrift.com/">
 							<h4>Media Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/campus-drift.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/campus-drift.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://www.duupdates.in/">
 							<h4>Media Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/du-updates.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/du-updates.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://urbanasian.com/">
 							<h4>Media Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/urban-asian.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/urban-asian.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://duexpress.in/">
 							<h4>Media Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/du-express.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/du-express.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://www.collegemedia.in/">
 							<h4>Media Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/college-media.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/college-media.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://collegedesk.in/">
 							<h4>Media Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/college-desk.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/college-desk.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://collegedesk.in/">
 							<h4>Media Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/my-dala.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/my-dala.png" alt="img26"/></div></div></a>
 						</div>
 					</div>
 				</div>
