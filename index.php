@@ -254,20 +254,6 @@
 					<figure class="effect-zoe">
 						<div class="speaker-info">
 							<p>
-								"Strength does not come from physical capacity. It comes from an indomitable spirit."<br><br>Ms. Laxmi Agarwal was a jovial 7th grade student when she was attacked with an acid in 2005. Her courage helped her to survive the attack but her scars reminded her of that horrific incident. However, she refused to accept her fate and embarked on a journey of emancipation. Since then, from receiving an award from Former First Lady Michelle Obama to have anchored television shows, she has tasted her well deserved share of accomplishments. Ms. Laxmi led a petition that compelled the Supreme Court to regulate the sale of acid and to make prosecution of attacks easier to pursue.<br><br>Ms. Laxmi is now the director of Chhanv Foundation and continues to rehabilitate, council and fight for the rights of acid attack victims. She was also named 'Indian of the Year’ by NDTV.<br><br>
-							</p>
-						</div>
-						<img src="img/laxmi.jpg" alt="img26"/>
-						<figcaption>
-							<h2>Laxmi <span>Agarwal</span></h2>
-							<p class="description">Director of Chhanv Foundation</p>
-						</figcaption>			
-					</figure>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-					<figure class="effect-zoe">
-						<div class="speaker-info">
-							<p>
 								“Nobody imagined this. I think the world has completely changed because of solar. Solar is disruptive and a game-changer.”<br><br>He serves as the Managing Director of Finnish-based energy company Fortum, overseeing their Indian endeavours. Together, they are working to reinvent the landscape of renewable energy in India.<br><br>He also worked for Tata Power, Wartsila, ABB and Thermax. He served as a Director of Industrial Energy Limited until February 2014. He is an alumnus of Delhi College of Engineering (DCE).<br><br>
 							</p>
 						</div>
@@ -753,6 +739,11 @@
 							<a href="http://collegedesk.in/">
 							<h4>Media Partner</h4><br>
 							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/my-dala.png" alt="img26"/></div></div></a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<a href="http://www.tcs.com/Pages/default.aspx">
+							<h4>Learning Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/sangam.jpg" alt="img27"/></div></div></a>
 						</div>
 					</div>
 				</div>
