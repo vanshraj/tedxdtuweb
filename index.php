@@ -668,17 +668,37 @@
 			</div>
 		</section>
 		<section id="sponsors">
-				<!-- <h1>Sponsors</h1> -->
 				<div class="row">
 					<div class="container">
 						<div class="announcements">
-							<h1>Partners</h1>
-							<!-- <h3>If interested, mail us at <a href="mailto:partnership@tedxdtu.in" style="color:#b4cee8">partnership@tedxdtu.in</a>.</h3><br> -->
+							<h1>Corporate Sponsors</h1>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<a href="https://aireon.com/">
+							<h4>Event Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/Aireon.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="https://campuscommune.tcs.com/en-in/intro">
 							<h4>Learning Partner</h4><br>
 							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/campus-commune.png" alt="img26"/></div></div></a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<a href="http://www.tcs.com/Pages/default.aspx">
+							<h4>Learning Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/tcs.png" alt="img26"/></div></div></a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<a href="http://www.tcs.com/Pages/default.aspx">
+							<h4>Learning Partner</h4><br>
+							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/sangam.jpg" alt="img27"/></div></div></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="container">
+						<div class="announcements">
+							<h1>Media Sponsors</h1>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://indianexpress.com/">
@@ -694,11 +714,6 @@
 							<a href="https://www.partiko.com/">
 							<h4>Event Partner</h4><br>
 							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/partiko.png" alt="img26"/></div></div></a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<a href="http://www.tcs.com/Pages/default.aspx">
-							<h4>Learning Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/tcs.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="https://www.facebook.com/humansofdelhi">
@@ -739,11 +754,6 @@
 							<a href="http://collegedesk.in/">
 							<h4>Media Partner</h4><br>
 							<div class="sponsors-box-box"><div class="sponsor-box"><img src="img/my-dala.png" alt="img26"/></div></div></a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<a href="http://www.tcs.com/Pages/default.aspx">
-							<h4>Learning Partner</h4><br>
-							<div class="sponsors-box-box"><div class="sponsors-box"><img src="img/sangam.jpg" alt="img27"/></div></div></a>
 						</div>
 					</div>
 				</div>
