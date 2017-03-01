@@ -278,6 +278,26 @@
 						</figcaption>			
 					</figure>
 				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							<div class="speaker-info">
+								<p>
+									"It was more about the instrument, more about proving something bigger than myself."<br /> <br />
+									Mr. Seen is touted as the youngest classical music player in the country and the world's first Metal Sitar player.<br /><br />
+									The novelty of his music lies in the perfect amalgamation of classical Indian music and metal. He is an alumnus of Hindu College, Delhi University.He has performed worldwide and received appreciation and opportunity to play with Legends like Ustad Shahid Parvez, Niladri Kumar, Talvin Singh, Pt.Rajan-Sajan Mishra(s), Pt. Birju Maharaj.<br /><br />
+									He has played in major Indian classical music festivals over the years.<br />
+									He formed the world’s first ever instrumental Indian Classical music – Progressive Metal band named ‘Mute the Saint’ with 4 other well-known musicians in 2016.<br />
+									He is working to evolve the relatively unknown and fairly recent music genre "djent"  with his fairly appreciated cover of "Tempting  Times" by progressive metal band Animals as Leaders .<br /><br />
+									Mr. Seen has a vision to make classical music a part of mainstream music culture and revive its relevance in modern world.<br /><br />
+								</p>
+							</div>
+							<img src="img/rishabh.jpeg" alt="img26"/>
+							<figcaption>
+								<h2>Rishabh <span>Seen</span></h2>
+								<p class="description">Youngest classical sitar player, founded a progressive metal band</p>
+							</figcaption>
+						</figure>
+					</div>
 			</div>
 			</div>
 		</section>
