@@ -291,7 +291,7 @@
 									Mr. Seen has a vision to make classical music a part of mainstream music culture and revive its relevance in modern world.<br /><br />
 								</p>
 							</div>
-							<img src="img/rishabh.jpeg" alt="img26"/>
+							<img src="img/rishabh.jpg" alt="img26"/>
 							<figcaption>
 								<h2>Rishabh <span>Seen</span></h2>
 								<p class="description">Youngest classical sitar player, founded a progressive metal band</p>
@@ -720,60 +720,57 @@
 						<div class="announcements">
 							<h1>Media Sponsors</h1>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<a href="http://indianexpress.com/">
 							<h4>Title Media Partner</h4><br>
 							<div class="s-box-box"><div class="s-box"><img src="img/indian-express.png" alt="img26"/></div></div></a>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<a href="http://www.theeducationtree.com/">
-							<h4>Campus Publicity Partner</h4><br>
-							<div class="s-box-box"><div class="s-box"><img src="img/education-tree.png" alt="img26"/></div></div></a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 							<a href="https://www.partiko.com/">
 							<h4>Event Partner</h4><br>
 							<div class="s-box-box"><div class="s-box"><img src="img/partiko.png" alt="img26"/></div></div></a>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+							<a href="http://www.theeducationtree.com/">
+							<h4>Campus Publicity Partner</h4><br>
+							<div class="s-box-box"><div class="s-box"><img src="img/education-tree.png" alt="img26"/></div></div></a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 							<a href="https://www.facebook.com/humansofdelhi">
-							<h4>Media Partner</h4><br>
+							<h4>Community Partner</h4><br>
 							<div class="s-box-box"><div class="s-box"><img src="img/humans-delhi.png" alt="img26"/></div></div></a>
 						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="container">
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<a href="http://campusdrift.com/">
-							<h4>Media Partner</h4><br>
-							<div class="s-box-box"><div class="s-box"><img src="img/campus-drift.png" alt="img26"/></div></div></a>
+							<a href="http://collegedesk.in/">
+							<div class="s-box-box"><div class="s-box"><img src="img/my-dala.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://www.duupdates.in/">
-							<h4>Media Partner</h4><br>
 							<div class="s-box-box"><div class="s-box"><img src="img/du-updates.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://urbanasian.com/">
-							<h4>Media Partner</h4><br>
 							<div class="s-box-box"><div class="s-box"><img src="img/urban-asian.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://duexpress.in/">
-							<h4>Media Partner</h4><br>
 							<div class="s-box-box"><div class="s-box"><img src="img/du-express.png" alt="img26"/></div></div></a>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://www.collegemedia.in/">
-							<h4>Media Partner</h4><br>
 							<div class="s-box-box"><div class="s-box"><img src="img/college-media.png" alt="img26"/></div></div></a>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<a href="http://collegedesk.in/">
-							<h4>Media Partner</h4><br>
-							<div class="s-box-box"><div class="s-box"><img src="img/college-desk.png" alt="img26"/></div></div></a>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+							<a href="http://campusdrift.com/">
+							<div class="s-box-box"><div class="s-box"><img src="img/campus-drift.png" alt="img26"/></div></div></a>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://collegedesk.in/">
-							<h4>Media Partner</h4><br>
-							<div class="s-box-box"><div class="s-box"><img src="img/my-dala.png" alt="img26"/></div></div></a>
+							<div class="s-box-box"><div class="s-box"><img src="img/college-desk.png" alt="img26"/></div></div></a>
 						</div>
 					</div>
 				</div>
