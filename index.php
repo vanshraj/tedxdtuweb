@@ -240,20 +240,6 @@
 					<figure class="effect-zoe">
 						<div class="speaker-info">
 							<p>
-								“We do not inherit the Earth from our ancestors, we borrow it from our children. ”<br><br>Renowned ecologist, academic, writer and columnist, Dr. Madhav Gadgil’s landmark report on the preservation of the unique ecosystem of the Western Ghats and the inclusion of local committees was integral in positioning him as a leading voice on environmental issues in India. As a fellow of reputed institutions like INSA and NASI and a recipient of the Harvard Centennial Medal from his alma mater, Dr. Gadgil has been an exemplary visionary in his field.<br><br> Dr. Gadgil is a former member of the Scientific Advisory Council to the Prime Minister of India and the Head of the Western Ghats Ecology Expert Panel (WGEEP) of 2010, which is popularly known as the Gadgil Commission. He is a recipient of the Volvo Environment Prize and the Tyler Prize for Environmental Achievement, making him the only Indian to win it after M.S. Swaminathan. The Government of India awarded him the Padma Shri in 1981 and subsequently conferred on him the Padma Bhushan in 2006.<br><br>
-							</p>
-						</div>
-						<img src="img/madhav.jpg" alt="img26"/>
-						<figcaption>
-							<h2>Madhav <span>Gadgil</span></h2>
-							<p class="description">Renowned ecologist, academic, writer and columnist</p>
-						</figcaption>	
-					</figure>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-					<figure class="effect-zoe">
-						<div class="speaker-info">
-							<p>
 								“Nobody imagined this. I think the world has completely changed because of solar. Solar is disruptive and a game-changer.”<br><br>He serves as the Managing Director of Finnish-based energy company Fortum, overseeing their Indian endeavours. Together, they are working to reinvent the landscape of renewable energy in India.<br><br>He also worked for Tata Power, Wartsila, ABB and Thermax. He served as a Director of Industrial Energy Limited until February 2014. He is an alumnus of Delhi College of Engineering (DCE).<br><br>
 							</p>
 						</div>
@@ -262,6 +248,20 @@
 							<h2>Sanjay <span>Aggarwal</span></h2>
 							<p class="description">Managing Director of Finnish-based energy company Fortum</p>
 						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<figure class="effect-zoe">
+						<div class="speaker-info">
+							<p>
+								“We do not inherit the Earth from our ancestors, we borrow it from our children. ”<br><br>Renowned ecologist, academic, writer and columnist, Dr. Madhav Gadgil’s landmark report on the preservation of the unique ecosystem of the Western Ghats and the inclusion of local committees was integral in positioning him as a leading voice on environmental issues in India. As a fellow of reputed institutions like INSA and NASI and a recipient of the Harvard Centennial Medal from his alma mater, Dr. Gadgil has been an exemplary visionary in his field.<br><br> Dr. Gadgil is a former member of the Scientific Advisory Council to the Prime Minister of India and the Head of the Western Ghats Ecology Expert Panel (WGEEP) of 2010, which is popularly known as the Gadgil Commission. He is a recipient of the Volvo Environment Prize and the Tyler Prize for Environmental Achievement, making him the only Indian to win it after M.S. Swaminathan. The Government of India awarded him the Padma Shri in 1981 and subsequently conferred on him the Padma Bhushan in 2006.<br><br>
+							</p>
+						</div>
+						<img src="img/madhav.jpg" alt="img26"/>
+						<figcaption>
+							<h2>Madhav <span>Gadgil</span></h2>
+							<p class="description">Renowned ecologist, academic, writer and columnist</p>
+						</figcaption>	
 					</figure>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
@@ -279,24 +279,18 @@
 					</figure>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-						<figure class="effect-zoe">
-							<div class="speaker-info">
-								<p>
-									"It was more about the instrument, more about proving something bigger than myself."<br /> <br />
-									Mr. Seen is touted as the youngest classical music player in the country and the world's first Metal Sitar player.<br /><br />
-									The novelty of his music lies in the perfect amalgamation of classical Indian music and metal. He is an alumnus of Hindu College, Delhi University.He has performed worldwide and received appreciation and opportunity to play with Legends like Ustad Shahid Parvez, Niladri Kumar, Talvin Singh, Pt.Rajan-Sajan Mishra(s), Pt. Birju Maharaj.<br /><br />
-									He has played in major Indian classical music festivals over the years.<br />
-									He formed the world’s first ever instrumental Indian Classical music – Progressive Metal band named ‘Mute the Saint’ with 4 other well-known musicians in 2016.<br />
-									He is working to evolve the relatively unknown and fairly recent music genre "djent"  with his fairly appreciated cover of "Tempting  Times" by progressive metal band Animals as Leaders .<br /><br />
-									Mr. Seen has a vision to make classical music a part of mainstream music culture and revive its relevance in modern world.<br /><br />
-								</p>
-							</div>
-							<img src="img/rishabh.jpg" alt="img26"/>
-							<figcaption>
-								<h2>Rishabh <span>Seen</span></h2>
-								<p class="description">Youngest classical sitar player, founded a progressive metal band</p>
-							</figcaption>
-						</figure>
+					<figure class="effect-zoe">
+						<div class="speaker-info">
+							<p>
+								"It was more about the instrument, more about proving something bigger than myself."<br /> <br />Mr. Seen is touted as the youngest classical music player in the country and the world's first Metal Sitar player.<br /><br />The novelty of his music lies in the perfect amalgamation of classical Indian music and metal. He is an alumnus of Hindu College, Delhi University.He has performed worldwide and received appreciation and opportunity to play with Legends like Ustad Shahid Parvez, Niladri Kumar, Talvin Singh, Pt.Rajan-Sajan Mishra(s), Pt. Birju Maharaj.<br /><br />He has played in major Indian classical music festivals over the years.<br />He formed the world’s first ever instrumental Indian Classical music – Progressive Metal band named ‘Mute the Saint’ with 4 other well-known musicians in 2016.<br />He is working to evolve the relatively unknown and fairly recent music genre "djent"  with his fairly appreciated cover of "Tempting  Times" by progressive metal band Animals as Leaders .<br /><br />Mr. Seen has a vision to make classical music a part of mainstream music culture and revive its relevance in modern world.<br /><br />
+							</p>
+						</div>
+						<img src="img/rishabh.jpg" alt="img26"/>
+						<figcaption>
+							<h2>Rishabh <span>Seen</span></h2>
+							<p class="description">Youngest classical sitar player, founded a progressive metal band</p>
+						</figcaption>
+					</figure>
 					</div>
 			</div>
 			</div>
