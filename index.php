@@ -685,7 +685,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="announcements">
-							<h1>Corporate Sponsors</h1>
+							<h1>Corporate Partners</h1>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="https://aireon.com/">
@@ -712,7 +712,7 @@
 				<div class="row">
 					<div class="container">
 						<div class="announcements">
-							<h1>Media Sponsors</h1>
+							<h1>Media Partners</h1>
 						</div>
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<a href="http://indianexpress.com/">
