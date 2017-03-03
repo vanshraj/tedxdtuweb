@@ -693,19 +693,9 @@
 							<div class="s-box-box"><div class="s-box"><img src="img/Aireon.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<a href="https://campuscommune.tcs.com/en-in/intro">
-							<h4>Learning Partner</h4><br>
-							<div class="s-box-box"><div class="s-box"><img src="img/campus-commune.png" alt="img26"/></div></div></a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://www.tcs.com/Pages/default.aspx">
 							<h4>Learning Partner</h4><br>
 							<div class="s-box-box"><div class="s-box"><img src="img/tcs.png" alt="img26"/></div></div></a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<a href="http://www.tcs.com/Pages/default.aspx">
-							<h4>Learning Partner</h4><br>
-							<div class="s-box-box"><div class="s-box"><img src="img/sangam.jpg" alt="img27"/></div></div></a>
 						</div>
 					</div>
 				</div>
