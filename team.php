@@ -293,6 +293,15 @@
 						</figcaption>	
 					</figure>
 				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<figure class="demo-effect-zoe">
+						<!-- <img src="img/red-hands.jpg" alt="img26"/> -->
+						<figcaption>
+							<h2>Nikhil <span>Bhattacharjee  </span></h2>
+							<p class="description">Treasurer</p>
+						</figcaption>	
+					</figure>
+				</div>
 			</div>
 			</div>
 		</section>
