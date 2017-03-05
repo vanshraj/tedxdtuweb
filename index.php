@@ -728,6 +728,13 @@
 				</div>
 				<div class="row">
 					<div class="container">
+						<div class="announcements">
+							<h1>Online Media Partners</h1>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<a href="http://www.dfordelhi.in/">
+							<div class="s-box-box"><div class="s-box"><img src="/img/d_for_delhi.jpg" alt="img26"/></div></div></a>
+						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://collegedesk.in/">
 							<div class="s-box-box"><div class="s-box"><img src="img/my-dala.png" alt="img26"/></div></div></a>
@@ -755,6 +762,18 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://collegedesk.in/">
 							<div class="s-box-box"><div class="s-box"><img src="img/college-desk.png" alt="img26"/></div></div></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="container">
+						<div class="announcements">
+							<h1>Merchandise Partners</h1>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<a href="http://designocare.com/">
+							<h4>3D Printing Partner</h4><br>
+							<div class="s-box-box"><div class="s-box"><img src="img/design.png" alt="img26"/></div></div></a>
 						</div>
 					</div>
 				</div>
