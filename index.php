@@ -291,7 +291,35 @@
 							<p class="description">Youngest classical sitar player, founded a progressive metal band</p>
 						</figcaption>
 					</figure>
-					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<figure class="effect-zoe">
+						<div class="speaker-info">
+							<p>
+								A seasoned theatre director, playwright and actor, Mr. Manav Kaul is reputed in the industry for enacting unconventional roles with panache. His performances in acclaimed movies like 'Kai Po Che', 'Citylights', 'Jolly LLB 2' and many others have been appreciated by critics and fans alike. He was nominated for Best Villain in Screen Awards for the movie 'Citylights'.<br><br>He has garnered acclaim for his moving and pleasing theatre plays, each of which explore the human mind and its vulnerability using poetry as part of the narrative. Some of the popular ones are “Shakkar ke Paanch Daane”, “Ilhaam” and “Bali aur Shambhu”. He has been awarded the META award for Best Script.<br><br>
+							</p>
+						</div>
+						<img src="img/manav.jpg" alt="img26"/>
+						<figcaption>
+							<h2>Manav <span>Kaul</span></h2>
+							<p class="description">A seasoned theatre director, Playwright and Actor.</p>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<figure class="effect-zoe">
+						<div class="speaker-info">
+							<p>
+								Aranyani Bhargav is a dancer, choreographer and Artistic Director of Vyuti Dance company, which does exploratory work in Bharatanatyam by incorporating modernity into tradition. She is the only classical dancer of her generation to experiment with Bharatanatyam through contact-based group work. Her work has been reviewed as "an astonishing product" and an "organic conversation between tradition and modernity".<br><br>Aranyani has also been a proficient soloist for over 15 years and has performed throughout India and all over the world. Her distinctive approach to Bharatanatyam as being simultaneously ancient and modern, traditional and contemporary, spiritual and secular has made her popular amidst a wide range of Indian and international audiences. She is also deeply committed to an academic engagement with dance.<br><br>In that, Aranyani is a dance scholar, researcher and teacher. She has studied at Oxford University where she wrote a thesis on the multiple modernities of Bharatanatyam. Since then, she has lectured on dance in India and abroad, has designed several dance theory and history modules for educational institutions and has taught at several dance institutions. She continues to teach young students of dance at her studio/home.<br><br>Aranyani is an empanelled artist with the Indian council for cultural relations, a recipient of the Natya Kala Mani award and has been centrally featured in a PSBT documentary on the evolution of Bharatanatyam titled "From Sadir to Bharatanatyam" directed by Viveka Chauhan.<br><br>
+							</p>
+						</div>
+						<img src="img/aranyani.jpg" alt="img26"/>
+						<figcaption>
+							<h2>Aranyani <span>Bhargav</span></h2>
+							<p class="description">Dancer, Choreographer and Artistic Director of Vyuti Dance company.</p>
+						</figcaption>
+					</figure>
+				</div>
 			</div>
 			</div>
 		</section>
@@ -693,9 +721,19 @@
 							<div class="s-box-box"><div class="s-box"><img src="img/Aireon.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<a href="https://campuscommune.tcs.com/en-in/intro">
+							<h4>Learning Partner</h4><br>
+							<div class="s-box-box"><div class="s-box"><img src="img/campus-commune.png" alt="img26"/></div></div></a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://www.tcs.com/Pages/default.aspx">
 							<h4>Learning Partner</h4><br>
 							<div class="s-box-box"><div class="s-box"><img src="img/tcs.png" alt="img26"/></div></div></a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<a href="http://www.tcs.com/Pages/default.aspx">
+							<h4>Learning Partner</h4><br>
+							<div class="s-box-box"><div class="s-box"><img src="img/sangam.jpg" alt="img27"/></div></div></a>
 						</div>
 					</div>
 				</div>
@@ -728,13 +766,6 @@
 				</div>
 				<div class="row">
 					<div class="container">
-						<div class="announcements">
-							<h1>Online Media Partners</h1>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<a href="http://www.dfordelhi.in/">
-							<div class="s-box-box"><div class="s-box"><img src="/img/d_for_delhi.jpg" alt="img26"/></div></div></a>
-						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://collegedesk.in/">
 							<div class="s-box-box"><div class="s-box"><img src="img/my-dala.png" alt="img26"/></div></div></a>
@@ -762,18 +793,6 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://collegedesk.in/">
 							<div class="s-box-box"><div class="s-box"><img src="img/college-desk.png" alt="img26"/></div></div></a>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="container">
-						<div class="announcements">
-							<h1>Merchandise Partners</h1>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<a href="http://designocare.com/">
-							<h4>3D Printing Partner</h4><br>
-							<div class="s-box-box"><div class="s-box"><img src="img/design.png" alt="img26"/></div></div></a>
 						</div>
 					</div>
 				</div>
