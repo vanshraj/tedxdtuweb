@@ -179,123 +179,98 @@
 					<span class="time-name hvr-hang">secs</span>
 				</div>
 				</div>
-
-			<section id="speakers">	
+				<section id="speakers">	
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 col-md-offset-4"><h1 class="speakers-title">Speakers</h1></div>
 				</div>
-			<div class="row speakers">
-				<div class="row"><div class="col-md-4 col-md-offset-4"><h3 class="year-title">2017</h3></div></div>
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-					<figure class="effect-zoe">
-						<div class="speaker-info">
-							<p>
-								“Nobody imagined this. I think the world has completely changed because of solar. Solar is disruptive and a game-changer.”<br><br>He serves as the Managing Director of Finnish-based energy company Fortum, overseeing their Indian endeavours. Together, they are working to reinvent the landscape of renewable energy in India.<br><br>He also worked for Tata Power, Wartsila, ABB and Thermax. He served as a Director of Industrial Energy Limited until February 2014. He is an alumnus of Delhi College of Engineering (DCE).<br><br>
-							</p>
-						</div>
-						<img src="img/sanjay.jpg" alt="img26"/>
-						<figcaption>
-							<h2>Sanjay <span>Aggarwal</span></h2>
-							<p class="description">Managing Director of Finnish-based energy company Fortum</p>
-						</figcaption>			
-					</figure>
+				<div class="row speakers">
+					<div class="row"><div class="col-md-4 col-md-offset-4"><h3 class="year-title">2017</h3></div></div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							<div class="speaker-info">
+								<p>
+									“Nobody imagined this. I think the world has completely changed because of solar. Solar is disruptive and a game-changer.”<br><br>He serves as the Managing Director of Finnish-based energy company Fortum, overseeing their Indian endeavours. Together, they are working to reinvent the landscape of renewable energy in India.<br><br>He also worked for Tata Power, Wartsila, ABB and Thermax. He served as a Director of Industrial Energy Limited until February 2014. He is an alumnus of Delhi College of Engineering (DCE).<br><br>
+								</p>
+							</div>
+							<img src="img/sanjay.jpg" alt="img26"/>
+							<figcaption>
+								<h2>Sanjay <span>Aggarwal</span></h2>
+								<p class="description">Managing Director of Finnish-based energy company Fortum</p>
+							</figcaption>			
+						</figure>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							<div class="speaker-info">
+								<p>
+									“We do not inherit the Earth from our ancestors, we borrow it from our children. ”<br><br>Renowned ecologist, academic, writer and columnist, Dr. Madhav Gadgil’s landmark report on the preservation of the unique ecosystem of the Western Ghats and the inclusion of local committees was integral in positioning him as a leading voice on environmental issues in India. As a fellow of reputed institutions like INSA and NASI and a recipient of the Harvard Centennial Medal from his alma mater, Dr. Gadgil has been an exemplary visionary in his field.<br><br> Dr. Gadgil is a former member of the Scientific Advisory Council to the Prime Minister of India and the Head of the Western Ghats Ecology Expert Panel (WGEEP) of 2010, which is popularly known as the Gadgil Commission. He is a recipient of the Volvo Environment Prize and the Tyler Prize for Environmental Achievement, making him the only Indian to win it after M.S. Swaminathan. The Government of India awarded him the Padma Shri in 1981 and subsequently conferred on him the Padma Bhushan in 2006.<br><br>
+								</p>
+							</div>
+							<img src="img/madhav.jpg" alt="img26"/>
+							<figcaption>
+								<h2>Madhav <span>Gadgil</span></h2>
+								<p class="description">Renowned ecologist, academic, writer and columnist</p>
+							</figcaption>	
+						</figure>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							<div class="speaker-info">
+								<p>
+									Ms. Monica Dogra is a singer and one half of the Mumbai based electronic duo Shaa'ir and Func. <br><br>She made her Bollywood acting debut with the film Dhobhi Ghat (2011).<br><br>She has made a guest appearance in the movie Rock On!<br><br>In December 2011, she served as a judge for Rolling Stone's "Never Hide Sounds" musical talent contest. <br><br>She is the host of The Dewarists.<br><br>Ms. Dogra has also featured on the covers of Maxim and FHM magazine.<br><br>Currently, she is one of the judges for the show The Stage.<br><br>She was nominated by VH1 at the 2015 Europe Music Awards under the Best India Act category, which falls under the Worldwide Act category.<br><br>Her international docu-series, Woman With Gloria Steinem (based on gender-related violence), was nominated in the Outstanding Documentary or Non-Fiction Series category at 68th Emmy Awards.<br><br>
+								</p>
+							</div>
+							<img src="img/monica.jpg" alt="img26"/>
+							<figcaption>
+								<h2>Monica <span>Dogra</span></h2>
+								<p class="description">Singer, Actress,  Judge of the show The Stage</p>
+							</figcaption>			
+						</figure>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							<div class="speaker-info">
+								<p>
+									"It was more about the instrument, more about proving something bigger than myself."<br /> <br />Mr. Seen is touted as the youngest classical music player in the country and the world's first Metal Sitar player.<br /><br />The novelty of his music lies in the perfect amalgamation of classical Indian music and metal. He is an alumnus of Hindu College, Delhi University.He has performed worldwide and received appreciation and opportunity to play with Legends like Ustad Shahid Parvez, Niladri Kumar, Talvin Singh, Pt.Rajan-Sajan Mishra(s), Pt. Birju Maharaj.<br /><br />He has played in major Indian classical music festivals over the years.<br />He formed the world’s first ever instrumental Indian Classical music – Progressive Metal band named ‘Mute the Saint’ with 4 other well-known musicians in 2016.<br />He is working to evolve the relatively unknown and fairly recent music genre "djent"  with his fairly appreciated cover of "Tempting  Times" by progressive metal band Animals as Leaders .<br /><br />Mr. Seen has a vision to make classical music a part of mainstream music culture and revive its relevance in modern world.<br /><br />
+								</p>
+							</div>
+							<img src="img/rishabh.jpg" alt="img26"/>
+							<figcaption>
+								<h2>Rishabh <span>Seen</span></h2>
+								<p class="description">Youngest classical sitar player, founded a progressive metal band</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							<div class="speaker-info">
+								<p>
+									A seasoned theatre director, playwright and actor, Mr. Manav Kaul is reputed in the industry for enacting unconventional roles with panache. His performances in acclaimed movies like 'Kai Po Che', 'Citylights', 'Jolly LLB 2' and many others have been appreciated by critics and fans alike. He was nominated for Best Villain in Screen Awards for the movie 'Citylights'.<br><br>He has garnered acclaim for his moving and pleasing theatre plays, each of which explore the human mind and its vulnerability using poetry as part of the narrative. Some of the popular ones are “Shakkar ke Paanch Daane”, “Ilhaam” and “Bali aur Shambhu”. He has been awarded the META award for Best Script.<br><br>
+								</p>
+							</div>
+							<img src="img/manav.jpg" alt="img26"/>
+							<figcaption>
+								<h2>Manav <span>Kaul</span></h2>
+								<p class="description">A seasoned theatre director, Playwright and Actor.</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							<div class="speaker-info">
+								<p>
+									Aranyani Bhargav is a dancer, choreographer and Artistic Director of Vyuti Dance company, which does exploratory work in Bharatanatyam by incorporating modernity into tradition. She is the only classical dancer of her generation to experiment with Bharatanatyam through contact-based group work. Her work has been reviewed as "an astonishing product" and an "organic conversation between tradition and modernity".<br><br>Aranyani has also been a proficient soloist for over 15 years and has performed throughout India and all over the world. Her distinctive approach to Bharatanatyam as being simultaneously ancient and modern, traditional and contemporary, spiritual and secular has made her popular amidst a wide range of Indian and international audiences. She is also deeply committed to an academic engagement with dance.<br><br>In that, Aranyani is a dance scholar, researcher and teacher. She has studied at Oxford University where she wrote a thesis on the multiple modernities of Bharatanatyam. Since then, she has lectured on dance in India and abroad, has designed several dance theory and history modules for educational institutions and has taught at several dance institutions. She continues to teach young students of dance at her studio/home.<br><br>Aranyani is an empanelled artist with the Indian council for cultural relations, a recipient of the Natya Kala Mani award and has been centrally featured in a PSBT documentary on the evolution of Bharatanatyam titled "From Sadir to Bharatanatyam" directed by Viveka Chauhan.<br><br>
+								</p>
+							</div>
+							<img src="img/aranyani.jpg" alt="img26"/>
+							<figcaption>
+								<h2>Aranyani <span>Bhargav</span></h2>
+								<p class="description">Dancer, Choreographer and Artistic Director of Vyuti Dance company.</p>
+							</figcaption>
+						</figure>
+					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-					<figure class="effect-zoe">
-						<div class="speaker-info">
-							<p>
-								“We do not inherit the Earth from our ancestors, we borrow it from our children. ”<br><br>Renowned ecologist, academic, writer and columnist, Dr. Madhav Gadgil’s landmark report on the preservation of the unique ecosystem of the Western Ghats and the inclusion of local committees was integral in positioning him as a leading voice on environmental issues in India. As a fellow of reputed institutions like INSA and NASI and a recipient of the Harvard Centennial Medal from his alma mater, Dr. Gadgil has been an exemplary visionary in his field.<br><br> Dr. Gadgil is a former member of the Scientific Advisory Council to the Prime Minister of India and the Head of the Western Ghats Ecology Expert Panel (WGEEP) of 2010, which is popularly known as the Gadgil Commission. He is a recipient of the Volvo Environment Prize and the Tyler Prize for Environmental Achievement, making him the only Indian to win it after M.S. Swaminathan. The Government of India awarded him the Padma Shri in 1981 and subsequently conferred on him the Padma Bhushan in 2006.<br><br>
-							</p>
-						</div>
-						<img src="img/madhav.jpg" alt="img26"/>
-						<figcaption>
-							<h2>Madhav <span>Gadgil</span></h2>
-							<p class="description">Renowned ecologist, academic, writer and columnist</p>
-						</figcaption>	
-					</figure>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-					<figure class="effect-zoe">
-						<div class="speaker-info">
-							<p>
-								Ms. Monica Dogra is a singer and one half of the Mumbai based electronic duo Shaa'ir and Func. <br><br>She made her Bollywood acting debut with the film Dhobhi Ghat (2011).<br><br>She has made a guest appearance in the movie Rock On!<br><br>In December 2011, she served as a judge for Rolling Stone's "Never Hide Sounds" musical talent contest. <br><br>She is the host of The Dewarists.<br><br>Ms. Dogra has also featured on the covers of Maxim and FHM magazine.<br><br>Currently, she is one of the judges for the show The Stage.<br><br>She was nominated by VH1 at the 2015 Europe Music Awards under the Best India Act category, which falls under the Worldwide Act category.<br><br>Her international docu-series, Woman With Gloria Steinem (based on gender-related violence), was nominated in the Outstanding Documentary or Non-Fiction Series category at 68th Emmy Awards.<br><br>
-							</p>
-						</div>
-						<img src="img/monica.jpg" alt="img26"/>
-						<figcaption>
-							<h2>Monica <span>Dogra</span></h2>
-							<p class="description">Singer, Actress,  Judge of the show The Stage</p>
-						</figcaption>			
-					</figure>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-					<figure class="effect-zoe">
-						<div class="speaker-info">
-							<p>
-								"It was more about the instrument, more about proving something bigger than myself."<br /> <br />Mr. Seen is touted as the youngest classical music player in the country and the world's first Metal Sitar player.<br /><br />The novelty of his music lies in the perfect amalgamation of classical Indian music and metal. He is an alumnus of Hindu College, Delhi University.He has performed worldwide and received appreciation and opportunity to play with Legends like Ustad Shahid Parvez, Niladri Kumar, Talvin Singh, Pt.Rajan-Sajan Mishra(s), Pt. Birju Maharaj.<br /><br />He has played in major Indian classical music festivals over the years.<br />He formed the world’s first ever instrumental Indian Classical music – Progressive Metal band named ‘Mute the Saint’ with 4 other well-known musicians in 2016.<br />He is working to evolve the relatively unknown and fairly recent music genre "djent"  with his fairly appreciated cover of "Tempting  Times" by progressive metal band Animals as Leaders .<br /><br />Mr. Seen has a vision to make classical music a part of mainstream music culture and revive its relevance in modern world.<br /><br />
-							</p>
-						</div>
-						<img src="img/rishabh.jpg" alt="img26"/>
-						<figcaption>
-							<h2>Rishabh <span>Seen</span></h2>
-							<p class="description">Youngest classical sitar player, founded a progressive metal band</p>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-					<figure class="effect-zoe">
-						<div class="speaker-info">
-							<p>
-								A seasoned theatre director, playwright and actor, Mr. Manav Kaul is reputed in the industry for enacting unconventional roles with panache. His performances in acclaimed movies like 'Kai Po Che', 'Citylights', 'Jolly LLB 2' and many others have been appreciated by critics and fans alike. He was nominated for Best Villain in Screen Awards for the movie 'Citylights'.<br><br>He has garnered acclaim for his moving and pleasing theatre plays, each of which explore the human mind and its vulnerability using poetry as part of the narrative. Some of the popular ones are “Shakkar ke Paanch Daane”, “Ilhaam” and “Bali aur Shambhu”. He has been awarded the META award for Best Script.<br><br>
-							</p>
-						</div>
-						<img src="img/manav.jpg" alt="img26"/>
-						<figcaption>
-							<h2>Manav <span>Kaul</span></h2>
-							<p class="description">A seasoned theatre director, Playwright and Actor.</p>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-					<figure class="effect-zoe">
-						<div class="speaker-info">
-							<p>
-								Aranyani Bhargav is a dancer, choreographer and Artistic Director of Vyuti Dance company, which does exploratory work in Bharatanatyam by incorporating modernity into tradition. She is the only classical dancer of her generation to experiment with Bharatanatyam through contact-based group work. Her work has been reviewed as "an astonishing product" and an "organic conversation between tradition and modernity".<br><br>Aranyani has also been a proficient soloist for over 15 years and has performed throughout India and all over the world. Her distinctive approach to Bharatanatyam as being simultaneously ancient and modern, traditional and contemporary, spiritual and secular has made her popular amidst a wide range of Indian and international audiences. She is also deeply committed to an academic engagement with dance.<br><br>In that, Aranyani is a dance scholar, researcher and teacher. She has studied at Oxford University where she wrote a thesis on the multiple modernities of Bharatanatyam. Since then, she has lectured on dance in India and abroad, has designed several dance theory and history modules for educational institutions and has taught at several dance institutions. She continues to teach young students of dance at her studio/home.<br><br>Aranyani is an empanelled artist with the Indian council for cultural relations, a recipient of the Natya Kala Mani award and has been centrally featured in a PSBT documentary on the evolution of Bharatanatyam titled "From Sadir to Bharatanatyam" directed by Viveka Chauhan.<br><br>
-							</p>
-						</div>
-						<img src="img/aranyani.jpg" alt="img26"/>
-						<figcaption>
-							<h2>Aranyani <span>Bhargav</span></h2>
-							<p class="description">Dancer, Choreographer and Artistic Director of Vyuti Dance company.</p>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-					<figure class="effect-zoe">
-						<div class="speaker-info">
-							<p></p>
-						</div>
-						<img src="img/manav.jpg" alt="img26"/>
-						<figcaption>
-							<h2> <span></span></h2>
-							<p class="description"></p>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-					<figure class="effect-zoe">
-						<div class="speaker-info">
-							<p></p>
-						</div>
-						<img src="img/aranyani.jpg" alt="img26"/>
-						<figcaption>
-							<h2> <span></span></h2>
-							<p class="description"></p>
-						</figcaption>
-					</figure>
-				</div>
-			</div>
 			</div>
 		</section>
 			<div class="about-back">
@@ -320,7 +295,7 @@
 					</div>
 				</div>
 			</div>
-					
+						
 		</section>
 
 		<section id="fun">	
@@ -330,7 +305,7 @@
 		</section>
 
 		<section>
-		<div class="container">
+			<div class="container">
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="about-card">
@@ -349,9 +324,9 @@
 						</div>
 					</div>
 				</div>
-			</div>	
+			</div>
 		</section>
-
+		
 		<section id="fun2">	
 			<div class="cloud-back"></div>
 			<div class="adventure">Share your adventure</div>
@@ -749,19 +724,9 @@
 							<div class="s-box-box"><div class="s-box"><img src="img/Aireon.png" alt="img26"/></div></div></a>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<a href="https://campuscommune.tcs.com/en-in/intro">
-							<h4>Learning Partner</h4><br>
-							<div class="s-box-box"><div class="s-box"><img src="img/campus-commune.png" alt="img26"/></div></div></a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://www.tcs.com/Pages/default.aspx">
 							<h4>Learning Partner</h4><br>
 							<div class="s-box-box"><div class="s-box"><img src="img/tcs.png" alt="img26"/></div></div></a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-							<a href="http://www.tcs.com/Pages/default.aspx">
-							<h4>Learning Partner</h4><br>
-							<div class="s-box-box"><div class="s-box"><img src="img/sangam.jpg" alt="img27"/></div></div></a>
 						</div>
 					</div>
 				</div>
@@ -794,6 +759,13 @@
 				</div>
 				<div class="row">
 					<div class="container">
+						<div class="announcements">
+							<h1>Online Media Partners</h1>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<a href="http://www.dfordelhi.in/">
+							<div class="s-box-box"><div class="s-box"><img src="img/d_for_delhi.jpg" alt="img26"/></div></div></a>
+						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://collegedesk.in/">
 							<div class="s-box-box"><div class="s-box"><img src="img/my-dala.png" alt="img26"/></div></div></a>
@@ -821,6 +793,18 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 							<a href="http://collegedesk.in/">
 							<div class="s-box-box"><div class="s-box"><img src="img/college-desk.png" alt="img26"/></div></div></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="container">
+						<div class="announcements">
+							<h1>Merchandise Partners</h1>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+							<a href="http://designocare.com/">
+							<h4>3D Printing Partner</h4><br>
+							<div class="s-box-box"><div class="s-box"><img src="img/design.png" alt="img26"/></div></div></a>
 						</div>
 					</div>
 				</div>

@@ -426,11 +426,10 @@ section{
   transform: translateY(0px);
   transition: all 0.5s ease-out;
 }
-#about #speakers{
+#about{
   padding-bottom: 10%;
 }
 #fun{
-  margin-top: 10%;
   height: 440px;
 }
 .back-man{
@@ -1018,6 +1017,14 @@ section{
   color: #090909;
   text-decoration: none;
 }
+#speakers{
+  padding-bottom: 10%;
+}
+#team-img{
+  max-width: 80vw;
+  border-radius: 10px;
+  margin-top: 5%;
+}
 @media only screen and (max-width: 780px){
   #grey_matters{
     font-size: 25px;
@@ -1044,11 +1051,7 @@ section{
     font-size: 12px; 
   }
 }
-#team-img{
-  max-width: 80vw;
-  margin-top: 5%;
-  border-radius: 10px;
-}
+
 /* Pulse */
 @-webkit-keyframes hvr-pulse {
   25% {
