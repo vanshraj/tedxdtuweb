@@ -206,20 +206,6 @@
 						<figure class="effect-zoe">
 							<div class="speaker-info">
 								<p>
-									“We do not inherit the Earth from our ancestors, we borrow it from our children. ”<br><br>Renowned ecologist, academic, writer and columnist, Dr. Madhav Gadgil’s landmark report on the preservation of the unique ecosystem of the Western Ghats and the inclusion of local committees was integral in positioning him as a leading voice on environmental issues in India. As a fellow of reputed institutions like INSA and NASI and a recipient of the Harvard Centennial Medal from his alma mater, Dr. Gadgil has been an exemplary visionary in his field.<br><br> Dr. Gadgil is a former member of the Scientific Advisory Council to the Prime Minister of India and the Head of the Western Ghats Ecology Expert Panel (WGEEP) of 2010, which is popularly known as the Gadgil Commission. He is a recipient of the Volvo Environment Prize and the Tyler Prize for Environmental Achievement, making him the only Indian to win it after M.S. Swaminathan. The Government of India awarded him the Padma Shri in 1981 and subsequently conferred on him the Padma Bhushan in 2006.<br><br>
-								</p>
-							</div>
-							<img src="img/madhav.jpg" alt="img26"/>
-							<figcaption>
-								<h2>Madhav <span>Gadgil</span></h2>
-								<p class="description">Renowned ecologist, academic, writer and columnist</p>
-							</figcaption>	
-						</figure>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-						<figure class="effect-zoe">
-							<div class="speaker-info">
-								<p>
 									Ms. Monica Dogra is a singer and one half of the Mumbai based electronic duo Shaa'ir and Func. <br><br>She made her Bollywood acting debut with the film Dhobhi Ghat (2011).<br><br>She has made a guest appearance in the movie Rock On!<br><br>In December 2011, she served as a judge for Rolling Stone's "Never Hide Sounds" musical talent contest. <br><br>She is the host of The Dewarists.<br><br>Ms. Dogra has also featured on the covers of Maxim and FHM magazine.<br><br>Currently, she is one of the judges for the show The Stage.<br><br>She was nominated by VH1 at the 2015 Europe Music Awards under the Best India Act category, which falls under the Worldwide Act category.<br><br>Her international docu-series, Woman With Gloria Steinem (based on gender-related violence), was nominated in the Outstanding Documentary or Non-Fiction Series category at 68th Emmy Awards.<br><br>
 								</p>
 							</div>
