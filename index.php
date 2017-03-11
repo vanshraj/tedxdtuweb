@@ -179,57 +179,8 @@
 					<span class="time-name hvr-hang">secs</span>
 				</div>
 				</div>
-			<div class="about-back">
-				<div class=" container">
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="about-card">
-							<h1  class="about-title">About TED</h1>
-							<h5 class="about-para sec">
-								TED is a nonprofit devoted to spreading ideas, usually in the form of short, powerful talks (18 minutes or less). TED began in 1984 as a conference where Technology, Entertainment and Design converged, and today covers almost all topics from science to business to global issues in more than 100 languages. Meanwhile, independently run TEDx events help share ideas in communities around the world.
-							</h5>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="about-card">
-							<h1  class="about-title">About TEDx</h1>
-							<h5 class="about-para">
-								The TEDx Program is designed to help communities, organizations and individuals to spark conversation and connection through local TED like experiences. At TEDx events, a screening of TED Talks videos or a combination of live presenters and TED Talks videos sparks deep conversation and connections at the local level. TEDx events are planned and coordinated independently, under a free license granted by TED.
-							</h5>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="about-card">
-							<a href="theme.php">
-								<img src="img/mascot.png" />
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-8">
-						<div class="about-card">
-							<h1 class="about-title">About TEDxDTU</h1>
-							<h5 class="about-para sec" style="text-align:center">
-								Our goal is to explore unity in diversity, kindle the minds of the youth, enable them to ideate and enter constructive peaceful dialogue, to nurture scientific thought and development in technology, and to promote equality, freedom and secularism in society. TEDxDTU aims to coalesce bright minds who are looking for some ground-breaking ideas to reshape their own and their community's future.<br />
-								 Here, speakers from diverse backgrounds will inspire the global audience to learn, explore and uplift themselves and make an impact in the society. It is a civic phenomenon which aims to inculcate in people the sense of universal responsibility while respecting the virtues of individuality. We aspire to inspire people towards humanitarian services with transformative potential of the human mind.
-							</h5>
-						</div>
-					</div>
-				</div>
-			</div>			
-		</section>
 
-		<section id="fun">	
-			<div class="back-man"></div>
-			<div class="inspire">IDEATE</div>
-			<div class="man-front"></div>
-		</section>
-
-		<section id="speakers">	
+			<section id="speakers">	
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 col-md-offset-4"><h1 class="speakers-title">Speakers</h1></div>
@@ -320,8 +271,85 @@
 						</figcaption>
 					</figure>
 				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<figure class="effect-zoe">
+						<div class="speaker-info">
+							<p></p>
+						</div>
+						<img src="img/manav.jpg" alt="img26"/>
+						<figcaption>
+							<h2> <span></span></h2>
+							<p class="description"></p>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<figure class="effect-zoe">
+						<div class="speaker-info">
+							<p></p>
+						</div>
+						<img src="img/aranyani.jpg" alt="img26"/>
+						<figcaption>
+							<h2> <span></span></h2>
+							<p class="description"></p>
+						</figcaption>
+					</figure>
+				</div>
 			</div>
 			</div>
+		</section>
+			<div class="about-back">
+				<div class=" container">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="about-card">
+							<h1  class="about-title">About TED</h1>
+							<h5 class="about-para sec">
+								TED is a nonprofit devoted to spreading ideas, usually in the form of short, powerful talks (18 minutes or less). TED began in 1984 as a conference where Technology, Entertainment and Design converged, and today covers almost all topics from science to business to global issues in more than 100 languages. Meanwhile, independently run TEDx events help share ideas in communities around the world.
+							</h5>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="about-card">
+							<h1  class="about-title">About TEDx</h1>
+							<h5 class="about-para">
+								The TEDx Program is designed to help communities, organizations and individuals to spark conversation and connection through local TED like experiences. At TEDx events, a screening of TED Talks videos or a combination of live presenters and TED Talks videos sparks deep conversation and connections at the local level. TEDx events are planned and coordinated independently, under a free license granted by TED.
+							</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+					
+		</section>
+
+		<section id="fun">	
+			<div class="back-man"></div>
+			<div class="inspire">IDEATE</div>
+			<div class="man-front"></div>
+		</section>
+
+		<section>
+		<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="about-card">
+							<a href="theme.php">
+								<img src="img/mascot.png" />
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="about-card">
+							<h1 class="about-title">About TEDxDTU</h1>
+							<h5 class="about-para sec" style="text-align:center">
+								Our goal is to explore unity in diversity, kindle the minds of the youth, enable them to ideate and enter constructive peaceful dialogue, to nurture scientific thought and development in technology, and to promote equality, freedom and secularism in society. TEDxDTU aims to coalesce bright minds who are looking for some ground-breaking ideas to reshape their own and their community's future.<br />
+								 Here, speakers from diverse backgrounds will inspire the global audience to learn, explore and uplift themselves and make an impact in the society. It is a civic phenomenon which aims to inculcate in people the sense of universal responsibility while respecting the virtues of individuality. We aspire to inspire people towards humanitarian services with transformative potential of the human mind.
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>	
 		</section>
 
 		<section id="fun2">	

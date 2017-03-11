@@ -302,7 +302,9 @@
 						</figcaption>	
 					</figure>
 				</div>
-			</div>
+			</div><br>
+			<div class="row"><div class="col-md-4 col-md-offset-4"><h3 class="year-title">Organizing Committee:</h3></div></div>
+				<img id="team-img" src="img/team.jpg" alt="img26"/>
 			</div>
 		</section>
 <!-- </body> -->
