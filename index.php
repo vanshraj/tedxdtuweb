@@ -179,7 +179,9 @@
 					<span class="time-name hvr-hang">secs</span>
 				</div>
 				</div>
-				<section id="speakers">	
+		</section>
+
+		<section id="speakers">	
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 col-md-offset-4"><h1 class="speakers-title">Speakers</h1></div>
@@ -270,9 +272,39 @@
 							</figcaption>
 						</figure>
 					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							<div class="speaker-info">
+								<p>
+									Mrs. Premlata Agarwal is the first Indian woman mountaineer to scale the Seven Summits. She is a Padma Shri awardee for her achievements in the field of Mountaineering. She is the oldest Indian woman to have scaled the world's tallest peak, Mount Everest (29,029 ft.), at the age of 48 years.<br /><br />Mrs. Agarwal discovered her passion when she was 37. She subsequently trained under Mrs. Bachendri Pal. Her feats have earned her a listing in the Limca Book of Records.
+								</p>
+							</div>
+							<img src="img/premlata.jpg" alt="img26"/>
+							<figcaption>
+								<h2>Premlata <span>Aggarwal</span></h2>
+								<p class="description">Mountaineer</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							<div class="speaker-info">
+								<p>
+									Tanmoy Chakrabarty - Vice President & Global Head - Government Industry Solutions Unit (ISU) at Tata Consultancy Services Limited (TCS), based in New Delhi, India. He has over 33 years of experience related with Business Development, Sales and Delivery of Integrated IT Solutions and Services to the Government sector and has led many enterprise wide, mission mode and holistic transformational projects in the area of e-Governance in India and other parts of the World. Tanmoy currently manages 165 Clients in the Government Sector for TCS and has a team of over 7500 Associates in TCS in 12 Countries. Recent projects include MCA 21, Income Tax, Central Excise & Customs, Passport and e-Migrate and several transformational projects in State Governments and tax automations programs in East Africa.<br /><br />He is a member of the IT Sub-Committee at Assocham, CII, FICCI and PHDCCI. He is on the Defense IT Sub Committee for FICCI. Additionally he is a Member of the IT Task Force of the Chief of Air Staff, Indian Air Force and a Member of the IT Think Tank for the Chief of Army Staff, Indian Army. He is a member of the Executive Committee of Electronics and Computer Software Export Promotion Council for 2015-17. He is a Member of the FICCI Inclusive Governance Council Committee and the NASSCOM Domestic IT Council. He is also on the Board of Management of the Indira Gandhi Delhi Technical University for Women. He is a member of the Digital India Committee at CII and member of CII National Committee on Telecom and Broadband for the year 2015-16.
+								</p>
+							</div>
+							<img src="img/tanmoy.jpg" alt="img26"/>
+							<figcaption>
+								<h2>Tanmoy <span>Chakrabarty</span></h2>
+								<p class="description">Vice President (TCS), Global Head - GISU</p>
+							</figcaption>
+						</figure>
+					</div>
 				</div>
 			</div>
 		</section>
+
+		<section>
 			<div class="about-back">
 				<div class=" container">
 					<div class="row">
@@ -295,7 +327,6 @@
 					</div>
 				</div>
 			</div>
-						
 		</section>
 
 		<section id="fun">	
