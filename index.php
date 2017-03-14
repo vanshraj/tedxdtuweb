@@ -286,6 +286,48 @@
 							</figcaption>
 						</figure>
 					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							<div class="speaker-info">
+								<p>
+									Dr. Sukant Khurana is a neuroscientist and data scientist who enjoys studying complexity and nuances, whether of brain functioning, drug discovery, development of new statistical tools, or analysing large data sets.<br /><br />He works on drug discovery for various neurological disorders, including alcohol addiction, using plant extracts, peptides, and epigenetic agents. He is both experimentally, theoretically and computationally exploring mechanisms of Parkinson's disease, activity dependent brain development, sub-millisecond timing computation in the brain, and mechanisms of neuronal plasticity.<br /><br />His data-science work is on two streams: developing novel statistical tools and utilizing data science for biomedical research. Through data science, he works on causes of sustainable development, where he is exploring issues of mental health, addiction, and AIDS epidemic.<br /><br />He has penned more than three dozen science popularization articles in addition to a similar number of original research papers. He is also an author of several fiction, non-fiction, art and science-popularization books.
+								</p>
+							</div>
+							<img src="img/sukant.jpg" alt="img27"/>
+							<figcaption>
+								<h2>Dr. Sukant Khurana</h2>
+								<p class="description">Neuroscientist, Data scientist</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							<div class="speaker-info">
+								<p>
+									Mr. Onkar is currently the Managing Partner of Impact India Partners and Presentation Ink. He has won various awards during School, College and after his college for his Business Plan/Presentations. He is on the board of advisors for various non-profits in India and is the Consulting Director of the UK Based Innovation Firm Chakraviyuh. After researching on 500 Nonprofits and Businesses, he developed a process called Impact Thinking to help non-profits around the world for which he received Pride of India Award 2015. He is well renowned for introducing  a new way of life called 5 year Old Philosophy through his book 5-year-old Billionaire.
+								</p>
+							</div>
+							<img src="img/onkar.jpg" alt="img28"/>
+							<figcaption>
+								<h2>Onkar Kishan Khullar</h2>
+								<p class="description">Author and Managing partner of Presentation Ink</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							<div class="speaker-info">
+								<p>
+									Ms. Rajashree Agrawal is a Mathematician , Entrepreneur and Programmer.  As part of Al Gore's delegation to the United Nations Climate Summit 2014, Ms. Agrawal's contributions were incredibly resourceful and insightful. She studied Entrepreneurship at MIT and is subsequently positioned as a member of the esteemed admissions committee for the program. As part of a highly recognized group of programmers, Ms. Agrawal is widely recognized in the NCR of Delhi as an expert programmer by the Hughes Systique Corporation. 
+								</p>
+							</div>
+							<img src="img/rajashree.jpg" alt="img28"/>
+							<figcaption>
+								<h2>Ms. Rajashree Agrawal</h2>
+								<p class="description">Mathematician, Entrepreneur and Programmer</p>
+							</figcaption>
+						</figure>
+					</div>
 				</div>
 			</div>
 		</section>
