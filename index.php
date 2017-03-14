@@ -777,7 +777,12 @@
 						<div class="announcements">
 							<h1>Corporate Partners</h1>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<a href="http://www.larsentoubro.com/">
+							<h4>Title Corporate Partner</h4><br>
+							<div class="s-box-box"><div class="s-box"><img src="img/l_t.jpg" alt="img26"/></div></div></a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-lg-offset-3 col-sm-6 col-xs-6">
 							<a href="https://aireon.com/">
 							<h4>Event Partner</h4><br>
 							<div class="s-box-box"><div class="s-box"><img src="img/Aireon.png" alt="img26"/></div></div></a>
@@ -813,6 +818,11 @@
 							<a href="https://www.facebook.com/humansofdelhi">
 							<h4>Community Partner</h4><br>
 							<div class="s-box-box"><div class="s-box"><img src="img/humans-delhi.png" alt="img26"/></div></div></a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+							<a href="https://www.vsworld.com/">
+							<h4>Webcast Partner</h4><br>
+							<div class="s-box-box"><div class="s-box"><img src="img/virtual_studio.jpeg" alt="img26"/></div></div></a>
 						</div>
 					</div>
 				</div>
@@ -860,7 +870,7 @@
 						<div class="announcements">
 							<h1>Merchandise Partners</h1>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<div class="col-lg-12 col-md-12 co-sm-3 col-sm-6 col-xs-6">
 							<a href="http://designocare.com/">
 							<h4>3D Printing Partner</h4><br>
 							<div class="s-box-box"><div class="s-box"><img src="img/design.png" alt="img26"/></div></div></a>
